@@ -1,0 +1,1905 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ],
+      "styles": {
+        "height": 128
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 4,
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-08-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-09-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-10-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-11-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-05-5aef5e7ca75d801b144fa117b85fa8043387d8a6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-06-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-07-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-06-14b907f0900da6cbec1f69ebd286c2c9f4101bd1",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-07-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-08-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-09-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-05-5aef5e7ca75d801b144fa117b85fa8043387d8a6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-06-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-07-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-13-31c7aff5fc25442494b6893cab2aea3ab2bdefd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-14-7898ffde0fa3807ba377b4eee8243d7d96e0487f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-15-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-16-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 2,
+      "source": "Header",
+      "target": "Header (header2)",
+      "key": "header2",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-10-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-06-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-08-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-06-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-15-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-12-5d6e89af57d847dbbc440303594de7e126298fd7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-08-d81feb915576ca5e6a209a1c3e7ac6c3132c3e13",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 6,
+      "source": "Header",
+      "target": "Header (header6)",
+      "key": "header6",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/terms-of-use.html",
+          "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+          "uuid": "5725be78-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/privacy-policy.html",
+          "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+          "uuid": "69d73d91-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 7,
+      "source": "Header",
+      "target": "Header (header7)",
+      "key": "header7",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 8,
+      "source": "Header",
+      "target": "Header (header8)",
+      "key": "header8",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 10,
+      "source": "Header",
+      "target": "Header (header10)",
+      "key": "header10",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/sitemap.html",
+          "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+          "uuid": "34c9e71b-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 13,
+      "source": "Header",
+      "target": "Header (header13)",
+      "key": "header13",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 15,
+      "source": "Accordion",
+      "target": "Accordion (accordion15)",
+      "key": "accordion15",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+          "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+          "uuid": "5f5a3c65-05-5aef5e7ca75d801b144fa117b85fa8043387d8a6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 16,
+      "source": "Hero",
+      "target": "Hero (hero16)",
+      "key": "hero16",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-raisins.html",
+          "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+          "uuid": "66ab3be4-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-06-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/oats-almonds.html",
+          "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+          "uuid": "90764daa-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/choco-chips.html",
+          "urlHash": "958418e2babb802401170878de75a02b54c61065",
+          "uuid": "958418e2-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+          "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+          "uuid": "a86f69a0-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/digestive-veda.html",
+          "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+          "uuid": "f1e5eb04-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+          "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+          "uuid": "fd4c6b10-09-8e17db68db3c9dea4125cdeab6a148682079b82c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 17,
+      "source": "Columns",
+      "target": "Columns (columns17)",
+      "key": "columns17",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 18,
+      "source": "Hero",
+      "target": "Hero (hero18)",
+      "key": "hero18",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-02-03253585c145f140246e9a492bd20b8ac8053af4",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 19,
+      "source": "Header",
+      "target": "Header (header19)",
+      "key": "header19",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-01-6072c4e3c146c8950d80494d39eadc1562cb57fb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 20,
+      "source": "Columns",
+      "target": "Columns (columns20)",
+      "key": "columns20",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 21,
+      "source": "Columns",
+      "target": "Columns (columns21)",
+      "key": "columns21",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products.html",
+          "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+          "uuid": "7b980841-12-456c7155d934b69c4c54daa9badc78c9acbca29b",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 22,
+      "source": "Columns",
+      "target": "Columns (columns22)",
+      "key": "columns22",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+          "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+          "uuid": "f1a7e467-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 23,
+      "source": "Columns",
+      "target": "Columns (columns23)",
+      "key": "columns23",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+          "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+          "uuid": "32733f60-05-d83eb1066d4005eddae767c4a3239a6304dac8ec",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 24,
+      "source": "Columns",
+      "target": "Columns (columns24)",
+      "key": "columns24",
+      "instances": [
+        {
+          "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+          "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+          "uuid": "071fad8a-07-dfa4076b7dd1e29e79cd2167590580569f9da043",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/section[1]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+      "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+      "uuid": "071fad8a-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+      "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+      "uuid": "071fad8a-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+      "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+      "uuid": "071fad8a-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+      "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+      "uuid": "071fad8a-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+      "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+      "uuid": "071fad8a-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-chocolate.html",
+      "urlHash": "071fad8a23a39ad8431f59d22a338e8ddde4166c",
+      "uuid": "071fad8a-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+      "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+      "uuid": "32733f60-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+      "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+      "uuid": "32733f60-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+      "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+      "uuid": "32733f60-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+      "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+      "uuid": "32733f60-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+      "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+      "uuid": "32733f60-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-family-pack.html",
+      "urlHash": "32733f60450400e9cca0bdbec05149cdba1325aa",
+      "uuid": "32733f60-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-02-03253585c145f140246e9a492bd20b8ac8053af4",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-05-5aef5e7ca75d801b144fa117b85fa8043387d8a6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-06-14b907f0900da6cbec1f69ebd286c2c9f4101bd1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-07-8e17db68db3c9dea4125cdeab6a148682079b82c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-08-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-09-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/sitemap.html",
+      "urlHash": "34c9e71b1e0e8f0d518ef9f940cfb3037182ee2e",
+      "uuid": "34c9e71b-11-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/terms-of-use.html",
+      "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+      "uuid": "5725be78-02-03253585c145f140246e9a492bd20b8ac8053af4",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://letsliveyoung.in/terms-of-use.html",
+      "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+      "uuid": "5725be78-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://letsliveyoung.in/terms-of-use.html",
+      "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+      "uuid": "5725be78-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/terms-of-use.html",
+      "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+      "uuid": "5725be78-05-5aef5e7ca75d801b144fa117b85fa8043387d8a6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://letsliveyoung.in/terms-of-use.html",
+      "urlHash": "5725be78eb80a50965807c4845bac4faa40ffe52",
+      "uuid": "5725be78-07-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+      "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+      "uuid": "5f5a3c65-02-03253585c145f140246e9a492bd20b8ac8053af4",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+      "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+      "uuid": "5f5a3c65-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+      "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+      "uuid": "5f5a3c65-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+      "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+      "uuid": "5f5a3c65-06-14b907f0900da6cbec1f69ebd286c2c9f4101bd1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+    },
+    {
+      "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+      "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+      "uuid": "5f5a3c65-07-8e17db68db3c9dea4125cdeab6a148682079b82c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]"
+    },
+    {
+      "url": "https://letsliveyoung.in/frequently-asked-questions.html",
+      "urlHash": "5f5a3c6558d4a7ba2a69129420555cf944e4cb69",
+      "uuid": "5f5a3c65-09-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-raisins.html",
+      "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+      "uuid": "66ab3be4-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-raisins.html",
+      "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+      "uuid": "66ab3be4-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-raisins.html",
+      "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+      "uuid": "66ab3be4-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-raisins.html",
+      "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+      "uuid": "66ab3be4-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-raisins.html",
+      "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+      "uuid": "66ab3be4-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-raisins.html",
+      "urlHash": "66ab3be4f3ebe6fb2a14976c2586d84a6d20a83b",
+      "uuid": "66ab3be4-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/privacy-policy.html",
+      "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+      "uuid": "69d73d91-02-03253585c145f140246e9a492bd20b8ac8053af4",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://letsliveyoung.in/privacy-policy.html",
+      "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+      "uuid": "69d73d91-03-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://letsliveyoung.in/privacy-policy.html",
+      "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+      "uuid": "69d73d91-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/privacy-policy.html",
+      "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+      "uuid": "69d73d91-05-5aef5e7ca75d801b144fa117b85fa8043387d8a6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://letsliveyoung.in/privacy-policy.html",
+      "urlHash": "69d73d91c8cdb9640b61373f491a233c95f050ea",
+      "uuid": "69d73d91-07-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-05-14b907f0900da6cbec1f69ebd286c2c9f4101bd1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-07-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-09-20141edd6790a2c8c4e6d342f03fbb26fd74846a",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-10-2c40a7f8ed3208141977aa2797b8c492217d2bd1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-11-ac528c659ccacfbc1e4bb4346b02d7a37706b5be",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-13-31c7aff5fc25442494b6893cab2aea3ab2bdefd5",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-14-7898ffde0fa3807ba377b4eee8243d7d96e0487f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products.html",
+      "urlHash": "7b9808418cc4656e0e7cc9e058c5fa6b5a24ce0f",
+      "uuid": "7b980841-16-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-almonds.html",
+      "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+      "uuid": "90764daa-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-almonds.html",
+      "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+      "uuid": "90764daa-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-almonds.html",
+      "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+      "uuid": "90764daa-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-almonds.html",
+      "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+      "uuid": "90764daa-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-almonds.html",
+      "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+      "uuid": "90764daa-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/oats-almonds.html",
+      "urlHash": "90764daa00d0b346567564ac902d686db8e00b85",
+      "uuid": "90764daa-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/choco-chips.html",
+      "urlHash": "958418e2babb802401170878de75a02b54c61065",
+      "uuid": "958418e2-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/choco-chips.html",
+      "urlHash": "958418e2babb802401170878de75a02b54c61065",
+      "uuid": "958418e2-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/choco-chips.html",
+      "urlHash": "958418e2babb802401170878de75a02b54c61065",
+      "uuid": "958418e2-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/choco-chips.html",
+      "urlHash": "958418e2babb802401170878de75a02b54c61065",
+      "uuid": "958418e2-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/choco-chips.html",
+      "urlHash": "958418e2babb802401170878de75a02b54c61065",
+      "uuid": "958418e2-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/choco-chips.html",
+      "urlHash": "958418e2babb802401170878de75a02b54c61065",
+      "uuid": "958418e2-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+      "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+      "uuid": "a86f69a0-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+      "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+      "uuid": "a86f69a0-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+      "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+      "uuid": "a86f69a0-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+      "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+      "uuid": "a86f69a0-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+      "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+      "uuid": "a86f69a0-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/nuts-digestive.html",
+      "urlHash": "a86f69a0691348b0663252c00e0a243b28e8c861",
+      "uuid": "a86f69a0-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+      "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+      "uuid": "f1a7e467-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+      "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+      "uuid": "f1a7e467-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+      "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+      "uuid": "f1a7e467-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+      "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+      "uuid": "f1a7e467-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+      "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+      "uuid": "f1a7e467-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-high-fiber.html",
+      "urlHash": "f1a7e467fe28c4207b9ba05949cc1b6f332fa77f",
+      "uuid": "f1a7e467-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-veda.html",
+      "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+      "uuid": "f1e5eb04-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-veda.html",
+      "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+      "uuid": "f1e5eb04-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-veda.html",
+      "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+      "uuid": "f1e5eb04-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-veda.html",
+      "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+      "uuid": "f1e5eb04-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-veda.html",
+      "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+      "uuid": "f1e5eb04-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/digestive-veda.html",
+      "urlHash": "f1e5eb048249abaa6856f5254b41e17ae8ebdb70",
+      "uuid": "f1e5eb04-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+      "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+      "uuid": "fd4c6b10-04-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+      "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+      "uuid": "fd4c6b10-06-49d0e0f9d015dfd3060b636ca174e8732b6a80b0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+      "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+      "uuid": "fd4c6b10-08-8eb2ed9b5ce91a549b6fac384d161e81380fb9e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+      "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+      "uuid": "fd4c6b10-10-0aba88c85de1b4564b0d8db42fc946b6489164ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+      "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+      "uuid": "fd4c6b10-11-7b0ed0ea235a9d80dc91e20bb4fcdb2a4e97860c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://letsliveyoung.in/products/ragi-jowar.html",
+      "urlHash": "fd4c6b10f59466f0c214a08e83f0545f73eaebd5",
+      "uuid": "fd4c6b10-13-c6a781509981e9905e06f032014ac9ed78ea71aa",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/section[1]/div[1]/section[2]",
+      "section": "section-4"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgba(0, 0, 0, 0) url(\"https://letsliveyoung.in/content/dam/farmlite/header/header_desktop_bg.png/jcr:content/renditions/web-medium.webp\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 14
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(145, 49, 116) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 9
+    },
+    {
+      "name": "section-3",
+      "background": "rgba(0, 0, 0, 0) url(\"https://letsliveyoung.in/content/dam/farmlite/footer/footer_desktop_bg.png/jcr:content/renditions/web-medium.webp\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 14
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(90, 69, 16) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 14
+    }
+  ]
+}
