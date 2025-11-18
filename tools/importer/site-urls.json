@@ -1,0 +1,652 @@
+{
+  "originUrl": "https://itcportal.com",
+  "aborted": false,
+  "lastCrawled": "https://itcportal.com/",
+  "urls": [
+    {
+      "url": "https://itcportal.com/about-itc.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc",
+      "id": "193000e82274239bafdbc102c6699b377dde1a89"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/awards-and-recognitions.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/awards-and-recognitions",
+      "id": "79c794e3400852542b8d56c1669b29d58544f99a"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/brand-detail.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/brand-detail",
+      "id": "a5e02df7b84e5a3d38a7020f7edab5e49b5d5034"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/code-of-conduct.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/code-of-conduct",
+      "id": "0f053d5d019ef8c9986948e3bff08e5ba9c5e311"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/environment--health---safety--ehs-.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/environment-health-safety-ehs",
+      "id": "ddf29f45a6d87132f46b416909b11ea6761334a6"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/history-and-evolution.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/history-and-evolution",
+      "id": "3a883b48b61bd766b046fab158333d20b97788fb"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies",
+      "id": "6346d963f6a72fba5c928182710e63fcbac8fef6"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/code-of-practices-and-procedures-for-fair-disclosure-of-unpublis.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/code-of-practices-and-procedures-for-fair-disclosure-of-unpublis",
+      "id": "464e11471a7a37c80ff94c75aa5d22bbac88824c"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/csr-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/csr-policy",
+      "id": "95fbaea1e34f7d40b75c9afdd47df6cd88717bec"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/food-products-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/food-products-policy",
+      "id": "8edf924e044c9c434f747758b90802f292b99338"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/it-e-waste-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/it-e-waste-policy",
+      "id": "cd0cf39f86a8314912ec66965dba8b017e636de4"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/itc-limited-food-division-s-policy-on-food-loss---waste.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/itc-limited-food-division-s-policy-on-food-loss-waste",
+      "id": "e22b544c50853374d2168f59f01e0683e9244843"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/itc-limited-foods-division-s-nutrition-profiling-system.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/itc-limited-foods-division-s-nutrition-profiling-system",
+      "id": "783c5005000a72162b664599ba162c71470fb29a"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/itc-limited-s-food-division-labelling-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/itc-limited-s-food-division-labelling-policy",
+      "id": "42ba0820c0e236293a2ca869a27fa43f1f3e8e90"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/itc-limited-s-food-division-nutrition-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/itc-limited-s-food-division-nutrition-policy",
+      "id": "3dd7bb8db7c4c2dad59b5bd45d74c4607a01ae92"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/itc-limiteds-food-divisions-nutrition-and-public-health-engagement-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/itc-limiteds-food-divisions-nutrition-and-public-health-engagement-policy",
+      "id": "7458e634da9fc39630cf7abf76403f80613812f0"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/itc-s-term-commitment.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/itc-s-term-commitment",
+      "id": "2d71fe12bfc451248bbdf315f09d7f8222208e55"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/policy-on-determination-of-a-material-subsidiary.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/policy-on-determination-of-a-material-subsidiary",
+      "id": "cc707612ae440fd09cdbbb52c8d82416848765c0"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/policy-on-related-transaction.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/policy-on-related-transaction",
+      "id": "4fddcf4796180a931b5a67a684afdc19e79d8311"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/privacy-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/privacy-policy",
+      "id": "f78eebafc6b56ccdb739b9521ab6ab3a6e00b2ac"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/renumeration-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/renumeration-policy",
+      "id": "807dcf77c336d1759b752ec0e723e6ca32ab9a40"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-policies/whistleblower-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-policies/whistleblower-policy",
+      "id": "397b4e43e122ee03f698171ff8365c527e60d0ee"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/itc-research-and-development.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/itc-research-and-development",
+      "id": "d2953342883f3780627912fe32bc3c26ece60f73"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks",
+      "id": "d48daeeb412805297bea82947a390e7f16b08597"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks/itc---stakeholder-value-through-purposeful-performance.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks/itc-stakeholder-value-through-purposeful-performance",
+      "id": "2279a6e7e741a229d913aa2abf3fe8e534005357"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks/itc--agility-in-adversity--synergy-in-diversity--compassionate-i.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks/itc-agility-in-adversity-synergy-in-diversity-compassionate-i",
+      "id": "fca627e34c743fbd7d6a0837863f0556806a57e7"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks/itc--building-a-competitive--future-tech--climate-positive-and-i.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks/itc-building-a-competitive-future-tech-climate-positive-and-i",
+      "id": "e52e31c160a3282226f183a283833b885ea0b1dd"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks/itc--nation-first-building-an-exemplary-enterprise-of-tomorrow.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks/itc-nation-first-building-an-exemplary-enterprise-of-tomorrow",
+      "id": "d4fe1812ef58157832d121c6d03a386b30d6eb21"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks/itc--nation-first-transforming-for-our-shared-tomorrows.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks/itc-nation-first-transforming-for-our-shared-tomorrows",
+      "id": "768afc5c16ec781a00ef5b5b8164eb32fe741136"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks/itc-navigating-a-turn-to-reimagine-the-future.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks/itc-navigating-a-turn-to-reimagine-the-future",
+      "id": "a79f2844b703c2bec328596413d1ac82dfa3b330"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership-speaks/itc-next--reimagining-businesses-for-a-redefined-future.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership-speaks/itc-next-reimagining-businesses-for-a-redefined-future",
+      "id": "60a01a7c8e42ab368979f7fa0de2a584c5458b4f"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership",
+      "id": "818c5aeaaa5b69a76a462cdd4f7707979e04cdc5"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/ajit-kumar-seth.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/ajit-kumar-seth",
+      "id": "5f9796921a41c47945171cc9a69627a477d4d314"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/ali-harris-shere.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/ali-harris-shere",
+      "id": "40bed5ca4894e7cab0d20f32a08ec3befd8385b6"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/alka-marezban-bharucha.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/alka-marezban-bharucha",
+      "id": "c3f5e5c6ed6e7d71657b960f32aa8a2665dd91e0"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/alok-pande.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/alok-pande",
+      "id": "488704457452a4e92d4918ac9e4d5e72113e4fb7"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/anand-nayak.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/anand-nayak",
+      "id": "642e0ae7a74df07f209e65141628587b7e78c730"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/anil-rajput.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/anil-rajput",
+      "id": "677041c98996f9d62b654651f9568737b7064d05"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/anuj-kumar-rustagi.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/anuj-kumar-rustagi",
+      "id": "81441d5546dc46782709d6dccc31dab1335f6980"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/atul-singh.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/atul-singh",
+      "id": "a51f1bac6efebfca9df17663c1b2824b7ac535cf"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/chandra-kishore-mishra.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/chandra-kishore-mishra",
+      "id": "4ada5e7d504ab2ee153506966ec2729a077f6f0b"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/cherian-k-thomas.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/cherian-k-thomas",
+      "id": "95948c333ac90bb696a6c4681b0cc7e5901eb260"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/devraj-lahiri.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/devraj-lahiri",
+      "id": "077862a86baf135b5ec231199708c343ee579287"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/hemant-bhargava.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/hemant-bhargava",
+      "id": "f96a35440e22e220e336649b224800297d77dfa0"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/hemant-malik.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/hemant-malik",
+      "id": "7d5554ee9080bee77c0d305167609a26402c0fe4"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/kavita-chaturvedi.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/kavita-chaturvedi",
+      "id": "b73066ab3431a4555ac9a1f627c0fdb8271186ea"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/nakul-anand.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/nakul-anand",
+      "id": "3398ce4d6046ab19a328b2dd4095025810630d37"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/nirupama-rao.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/nirupama-rao",
+      "id": "61022ea064174b8a8b89fbc065515dea282c3c89"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/pushpa-subrahmanyam.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/pushpa-subrahmanyam",
+      "id": "b9cfd9f73852d728a9304d3455eb1e7cba145940"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/r-k-singhi.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/r-k-singhi",
+      "id": "346ccbf5e3e516c7113c9d91f7d76a870ca23bcc"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/rajesh-ponnuru.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/rajesh-ponnuru",
+      "id": "e05921b7974a3b4414ca547073752beeaf32489b"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/rohit-dogra.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/rohit-dogra",
+      "id": "a433b7e6d0627f5fae7edf3736e4a99bbfbcaf4a"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/s-ganesh-kumar.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/s-ganesh-kumar",
+      "id": "d3c9fb43b28e64a63534d2273eb8ec45cf3389a9"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/s-sivakumar.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/s-sivakumar",
+      "id": "d4c48d052cd0e2e9b216564a25bd3fb2fe165730"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/sameer-satpathy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/sameer-satpathy",
+      "id": "dd9270172e4f40cd3cf0f3b34e3b6ff695a9297a"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/sandeep-kaul.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/sandeep-kaul",
+      "id": "5a0f3dddd7639758143cbfbf1d359bfa83026b07"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/sandeep-sule.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/sandeep-sule",
+      "id": "430f33f6b3035aa080e283a0f8c8fd8b03357090"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/sanjiv-puri.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/sanjiv-puri",
+      "id": "94b7da3b183fda455d6c7d4592273d0334b1aa6e"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/shyamal-mukherjee.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/shyamal-mukherjee",
+      "id": "8135cd1bbc18d8e76a00668df8c68b9932ff5b8a"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/siddhartha-mohanty.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/siddhartha-mohanty",
+      "id": "af008c6155213f33fa9a0890439863ae27d387de"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/sumant-bhargavan.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/sumant-bhargavan",
+      "id": "330a34ceeb31b38d5cf88851d2567e531e5a5004"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/sunil-panray.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/sunil-panray",
+      "id": "80d8ed08769e64b7a777531aad4f07750b9d76c6"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/supratim-dutta.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/supratim-dutta",
+      "id": "7f2c3fb9d5c4db806a079dc813639f3b31ae3e15"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/leadership/vikas-gupta.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/leadership/vikas-gupta",
+      "id": "f9e85bdfd774b90fe93871a96383e3049abee89a"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/our-profile.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/our-profile",
+      "id": "e7131ad4ecb3fb46243695e19e7a4da025a7da15"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability",
+      "id": "309957fb69e1f625a74d4165b3611bc4456227c1"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/addressing-climate-change.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/addressing-climate-change",
+      "id": "d49497554bd3e4362fb46c77866498285dd28ea3"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/afforestation.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/afforestation",
+      "id": "e64af1ec8d6dfd0fa7cd99a77ddec2616dea8612"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/biodiversity-conservation.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/biodiversity-conservation",
+      "id": "37e89ec709fb482e47aaf24959c3ee2291a48b43"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/brands-with-purpose.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/brands-with-purpose",
+      "id": "1a7da976c946b6ba693dc47f61623348263df55e"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/circularity.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/circularity",
+      "id": "1839b21ba64f19db927a07bf72731c74539e85e3"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/climate-smart-agriculture.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/climate-smart-agriculture",
+      "id": "e57181eb86323557ee2db68e1adc4b23f93044b8"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/corporate-social-responsibility.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/corporate-social-responsibility",
+      "id": "bb8c9c78bf36bf3e0084ee232878bdeeb0ad24db"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/diversity-equity-and-Inclusion.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/diversity-equity-and-inclusion",
+      "id": "c1f3104ddede0b3b9a8ad40b99bc46ab12ffbabc"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/e-choupal.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/e-choupal",
+      "id": "ba0ca93c29a9180f29606bdefb74b0fd6ce2455e"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/empowering-women-to-become-change-makers.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/empowering-women-to-become-change-makers",
+      "id": "04bd6b3b3a2b29a9b79936ceda119059ff6357d0"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/food-tech.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/food-tech",
+      "id": "f4b0cbf60c5f6ddc8764c90f6f70841c631d4c8e"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/green-buildings.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/green-buildings",
+      "id": "d4c59b401d673c3f27dbf76ea9e07b986b1b2a2e"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/healthcare.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/healthcare",
+      "id": "52f12b479e8a409502b6845189a13741a9a01676"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/human-rights.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/human-rights",
+      "id": "19093860d172e70e74e0034b5c1f2c3e7525a9dd"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/itc-s-double-materiality-analysis-page-.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/itc-s-double-materiality-analysis-page",
+      "id": "5a29ab8631025e434fca3181f1560a941f19f38d"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/itc-s-sustainability-vision-and-strategy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/itc-s-sustainability-vision-and-strategy",
+      "id": "43d6f32e7510856a0f60adca311c66602ff7c4cf"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/itc-social-investment-impact-studies.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/itc-social-investment-impact-studies",
+      "id": "ad5f3aa8d7de235e3b30496d1dcf240bbde42c5c"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/livestock-development.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/livestock-development",
+      "id": "3f873fda56a3a0401fed521007010e9caea6d657"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/occupational-health-and-safety.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/occupational-health-and-safety",
+      "id": "3845c5f7395ae148eee02f6226f2fe257199f69e"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/renewable-energy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/renewable-energy",
+      "id": "f1ad5b4dc76691db3b4ca638a18aee98f14e1ac8"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/rfps-for-impact-assessments.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/rfps-for-impact-assessments",
+      "id": "ce547ce8085a559e9d34a19fd2c5c758d2681403"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/skilling-and-vocational-training.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/skilling-and-vocational-training",
+      "id": "20df8ecf659ce44d0acfdf48da0fab941d9cc512"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/support-to-education.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/support-to-education",
+      "id": "99a83860399cf104c2bbc5a10ed0faa80de12405"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/supporting-livelihoods.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/supporting-livelihoods",
+      "id": "32e43c5ecd62bd9bbd7ad4f50c49cf5284c78135"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/sustainability-reports.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/sustainability-reports",
+      "id": "1991cacd25a3919555b7dd235a5ea28bd0c49a36"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/sustainable-supply-chain.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/sustainable-supply-chain",
+      "id": "6b842e9283a57925bd87f00765c72ce3da178fb9"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/talent.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/talent",
+      "id": "d53ce6dc26c2cf6016984321f8e0166bc8eaf278"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/water-stewardship.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/water-stewardship",
+      "id": "0c44f5fef9cade9e91a22159e354ef8a819ec035"
+    },
+    {
+      "url": "https://itcportal.com/about-itc/sustainability/women-empowerment.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-itc/sustainability/women-empowerment",
+      "id": "be1c7fa069a640311e513404ecc67c28dbcec4a1"
+    },
+    {
+      "url": "https://itcportal.com/home.html",
+      "source": "SITEMAPS",
+      "targetPath": "/home",
+      "id": "66764b01c84aa031d51e3fe4e83c467afdd9d48d"
+    },
+    {
+      "url": "https://itcportal.com/home/digital-transformation-at-itc.html",
+      "source": "SITEMAPS",
+      "targetPath": "/home/digital-transformation-at-itc",
+      "id": "1b5646155a8cbd5a03c96169c299ad75a94122ef"
+    },
+    {
+      "url": "https://itcportal.com/home/food-tech.html",
+      "source": "SITEMAPS",
+      "targetPath": "/home/food-tech",
+      "id": "0c410e5ac65f23d898f802e1727dc216254e69c8"
+    },
+    {
+      "url": "https://itcportal.com/home/innovation-at-itc.html",
+      "source": "SITEMAPS",
+      "targetPath": "/home/innovation-at-itc",
+      "id": "167186b81b12db90636969a7abcf9f499048b5bd"
+    },
+    {
+      "url": "https://itcportal.com/home/sustainable-packaging.html",
+      "source": "SITEMAPS",
+      "targetPath": "/home/sustainable-packaging",
+      "id": "b176e5ed260cb589d9891a77e3306828b8e22841"
+    },
+    {
+      "url": "https://itcportal.com/home/test.html",
+      "source": "SITEMAPS",
+      "targetPath": "/home/test",
+      "id": "4211554df5081fa3e2d6057e9586aa0e3cde02c0"
+    },
+    {
+      "url": "https://itcportal.com/media-centre.html",
+      "source": "SITEMAPS",
+      "targetPath": "/media-centre",
+      "id": "16684a15f58812baaa5773fae1bca6362282d106"
+    },
+    {
+      "url": "https://itcportal.com/media-centre/itc-stories.html",
+      "source": "SITEMAPS",
+      "targetPath": "/media-centre/itc-stories",
+      "id": "f406a7a4999327dccba83e394a4bb43812293468"
+    },
+    {
+      "url": "https://itcportal.com/media-centre/itc-stories/itc-agri-business.html",
+      "source": "SITEMAPS",
+      "targetPath": "/media-centre/itc-stories/itc-agri-business",
+      "id": "eb7d1431ed8fe2efc02106b7f2366154283d2e59"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://itcportal.com/governance-document.html",
+      "status": "301 Moved Permanently Redirect: https://itcportal.com/error-page/404.html"
+    }
+  ],
+  "errorCountMessage": "{\"E_301\":1}",
+  "error": null
+}
