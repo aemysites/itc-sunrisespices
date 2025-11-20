@@ -1,0 +1,446 @@
+{
+  "templates": [
+    {
+      "name": "'Dashboard Template'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://sunrisespices.in/blogs/bengali-breakfast-dishes-you-must-try.html",
+          "uuid": "8f1bd29138fbe8f62a22a3461e5b77250ddbc7e3"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/how-to-use-cardamom.html",
+          "uuid": "1a6fc0835a1bfad5c5885557e824cca38aa815b5"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/how-to-use-cumin.html",
+          "uuid": "67ccc2fba97ac8fdae9f0e959d335429399901df"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/turmeric-the-golden-spice-of-india.html",
+          "uuid": "15010197389e47f2a74e06fc49b3cdbf172d8f38"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/cardamom-cumin-and-coriander-the-three-Cs-of-indian-spices.html",
+          "uuid": "afaa7b72bd095fc3844a9b958fc76d23fcc92a31"
+        }
+      ]
+    },
+    {
+      "name": "'product listing page'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://sunrisespices.in/recipe-collection/bengali-bhetki-paturi-recipe.html",
+          "uuid": "60f85db3b3541a0b4751bc5e15a48fe7ad7e3c4f"
+        },
+        {
+          "url": "https://sunrisespices.in/recipe-collection/shahi-chicken-korma-recipe.html",
+          "uuid": "3300410db0c960e469c27775209dc1727c01b2dc"
+        },
+        {
+          "url": "https://sunrisespices.in/recipe-collection/aloo-paratha-recipe.html",
+          "uuid": "836dccfa5dd0291e7b20e1b1278271354d8f3208"
+        },
+        {
+          "url": "https://sunrisespices.in/recipe-collection/chicken-hakka-noodle-recipe.html",
+          "uuid": "7980d1cfa894f698082b97ced7ae7185a2dad09a"
+        },
+        {
+          "url": "https://sunrisespices.in/recipe-collection/chole-bhature-recipe.html",
+          "uuid": "956db8270c4316ec9e9bb04070a7078431724382"
+        },
+        {
+          "url": "https://sunrisespices.in/recipe-collection/bhoger-khichuri-recipe.html",
+          "uuid": "be85a52ba6930b55515790f295f8bdf60df3d835"
+        },
+        {
+          "url": "https://sunrisespices.in/recipe-collection/fish-fry-recipe.html",
+          "uuid": "6048a4208d3c2e6d824293fd0b08dcc8e178a6c3"
+        }
+      ]
+    },
+    {
+      "name": "'E-commerce template'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://sunrisespices.in/our-products.html",
+          "uuid": "31a60200effc117849b861615f21b5eaaf3bfe31"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs.html",
+          "uuid": "3b6aa9ff81e8dcaf89a59b9d7fda094b6bb88f60"
+        }
+      ]
+    },
+    {
+      "name": "'Product Showcase Template'",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://sunrisespices.in/",
+          "uuid": "7b6bf676106b323c59461ef916631d10a7ee4522"
+        }
+      ]
+    },
+    {
+      "name": "'gallery listing'",
+      "cluster": 5,
+      "pages": [
+        {
+          "url": "https://sunrisespices.in/our-products/paneer-butter-masala.html",
+          "uuid": "2b70291f03d39c67458e6f7896f7266f16a26a18"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/chana-masala.html",
+          "uuid": "f8f470f9b94451dd9df8533a791b32c8fc6a4a75"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/whole-brown-mustard.html",
+          "uuid": "1a878a9942f9f2d79e2881086bce6720a03a11ab"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/whole-poppy-seeds.html",
+          "uuid": "9abdb7d5e64b1c953bbb928b7d92082fffd868a8"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/shukto-masala-powder.html",
+          "uuid": "a270d9aea3381957a6eda3e26198f20964aad965"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/kashmiri-chilli-powder.html",
+          "uuid": "7f7aa349a802e5486cc9a544192c82cd0ebdf61a"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/jaljeera-masala.html",
+          "uuid": "2065801b566c7c133e075efd87768d51d3b70ff0"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/coriander-powder.html",
+          "uuid": "06fdb46290650037135fffea4cee4e10c6491555"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/egg-curry-masala.html",
+          "uuid": "7b3974d6c431faeb2affca3bef6c72b29c736568"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/garam-masala.html",
+          "uuid": "5cbe388bfe03ac5d1f37c5e9330bb79ae818b3e4"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/ground-black-pepper.html",
+          "uuid": "e8a960ea470a92989941b6f02b2fa3cada17a534"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/ground-cumin.html",
+          "uuid": "9dc703ef9d74ccb3d1e7f0b220cafe18b1025554"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/clove.html",
+          "uuid": "7d9d4f570201534e7d64be9388d78d2b2b8bcee8"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/chicken-curry-masala.html",
+          "uuid": "16c5a48f84860d89178cb5165049d873d9c624b6"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/chow-mix-masala.html",
+          "uuid": "d1eb3f5a3674fa015c900e4710593bec92042454"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/amchur-powder.html",
+          "uuid": "d4ff2748d90d43db0ccd1a17577b4fcb95982c4f"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/hing.html",
+          "uuid": "3564a8b12ee9ee47daead12523be1e10a3f11533"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/haah-salkumura-masala.html",
+          "uuid": "55c36e9f18607d452093468ab8ca38c18404a839"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/macher-jhol-masala.html",
+          "uuid": "67f4e363e86e34ec4af54c20b645bfb5bf4c5e9b"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/kitchen-king-masala.html",
+          "uuid": "ae25f855a6d1b33e73e44aa0d5fa1b2b4de63cd5"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/kasuri-methi.html",
+          "uuid": "5c1d82705e23f926f80c5e4057cfc3550cab8bce"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/magic-masala.html",
+          "uuid": "091ef8f7c15e73ca8201139029fc1257290af58c"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/masala-papad.html",
+          "uuid": "a7ee869093c9ecf833d5a221483ed416c8170d06"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/meat-masala.html",
+          "uuid": "cdf8e83e680b1f094b477aa2c77dc0d02cde0b64"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/punjabi-papad.html",
+          "uuid": "3ba3456bc59e6b3faecaee2d5160525ff839cad2"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/powdered-mustard.html",
+          "uuid": "a271f15cbaebe4f9f6fc95827f03d6f6ce5103a8"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/sarso-yellow.html",
+          "uuid": "9ee71279b52a73547e9d4232ca933a2e0137e4a4"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/whole-kala-jeera.html",
+          "uuid": "361482b6514969ee566b16deb30229bc2b890a00"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/whole-ajwain.html",
+          "uuid": "98d36bc735ea17b3b2a1872a03a8e31f39efe1cb"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/whole-black-pepper.html",
+          "uuid": "37643e8332d8322bfee74a5ac4d949fca215382b"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/tej-red-chilli-powder.html",
+          "uuid": "4cb9e1be7abb5dd095dab11e0fe743e7dddeffea"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/tarkari-masala.html",
+          "uuid": "2b1b8a362b51398a612a83c49a1b55d163977725"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/tadka-masala.html",
+          "uuid": "5c139b7bfa6fe3905ca9cf59d325b4dcde0f1fc2"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/turmeric-powder.html",
+          "uuid": "565d560a274241d424f7afcc6f619c563117aaa6"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/saunf.html",
+          "uuid": "1c525e494e619721f84c710a70886db0bffd96b4"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/shahi-garam-masala.html",
+          "uuid": "a45027d385642b8eb266962b6483d130b5423a7b"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/shorshe-posto-powder.html",
+          "uuid": "97ee4778e471d20ed9d66c027db7614431dacb01"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/pav-bhaji-masala.html",
+          "uuid": "0471983a9f466bbf554d35df821bbcb61a2b83ea"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/pasta-masala.html",
+          "uuid": "47ca72c0fcbafe9b02a0f1408e753e857adcbc57"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/plain-papad.html",
+          "uuid": "0473aa8fed1b411583ab513982c27ad3f98f6e16"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/sambar-masala.html",
+          "uuid": "2fe7b1a4b695fda426e4458110b8cf497aa42321"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/sabji-masala.html",
+          "uuid": "b381d4870ab2294c9ee42d9c932ac75cab3a57a7"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/red-chilli-powder.html",
+          "uuid": "8a468946acaaebe58a0c86293457d3273988d4ac"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/red-chilli-flakes.html",
+          "uuid": "29ca2780646f6e8b7d304eb1dff9242bd4eaceb4"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/panch-phoran.html",
+          "uuid": "c066ab361497d33deee242920ebd6ed1538889a2"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/biryani-pulav-masala.html",
+          "uuid": "a651f16879e2ada492a996e881693dbdbded910c"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/chaat-masala.html",
+          "uuid": "b232436ce791aa5d22e9597efb80601c506f12b5"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/chhoti-elaichi.html",
+          "uuid": "a1a97c4c6a6e0b2dcff127c6452ccae877a0df66"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/aloo-dum-masala.html",
+          "uuid": "b616c42ceef4ab0d457e7c25be85ad1dec77224e"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/jeera.html",
+          "uuid": "cf7fa8677852748c4297de84b3532d205369ed66"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/whole-methi-seeds.html",
+          "uuid": "32fb43783ab986d6a329976bde546258ca5a933f"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/whole-rai.html",
+          "uuid": "a35bca535ba8e6e2cefcdff900ee50ccc0302e43"
+        },
+        {
+          "url": "https://sunrisespices.in/our-products/radhuni.html",
+          "uuid": "e9aaaddb6ac6f48f21f083bdd7e7cb043f9f97a2"
+        }
+      ]
+    },
+    {
+      "name": "'Content Listing Page'",
+      "cluster": 6,
+      "pages": [
+        {
+          "url": "https://sunrisespices.in/blogs/how-to-choose-the-best-chilli-powder-for-your-recipes.html",
+          "uuid": "f665b360da1db9bd8ef25ef92a811ce9d24f283a"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/how-to-use-ajwain.html",
+          "uuid": "a63f9a5d6428d87e9db3b1e4c297014f4d5819d0"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/exploring-different-varieties-of-mustard-from-yellow-to-brown.html",
+          "uuid": "cc36a15ab2dab36013d2ab029c10eb0c224ee186"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/types-of-chilli-powder-and-uses.html",
+          "uuid": "34698da9519d3a902134376f37b4f7a1e9953dbd"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/holi-festival-sweets-and-special-dishes.html",
+          "uuid": "0cd815a37844cc2449de833fd1066ae68fc60597"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/5-must-try-bengali-dishes.html",
+          "uuid": "3ffdc35942b5eda83b18790fd32b3923a62b9ce0"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/6-vegetarian-assamese-thali.html",
+          "uuid": "6cde78b2591f1e29011bb29faeecf0cc7637416e"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/famous-kolkatas-street-food.html",
+          "uuid": "d645056cde267f9f34c266e5823de271d62793f3"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/top-5-most-expensive-spices.html",
+          "uuid": "9e7b06efe77197021863d0093c1f5365e9b3bc0a"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/8-must-try-bihu-festival-food.html",
+          "uuid": "a9a34e56cf750a29b1ad0482432462a85e4f091f"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/how-to-start-your-own-spice-garden.html",
+          "uuid": "7eb44fd448a5d5a6bc62492103d805cb9b2496a2"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/tips-for-cooking-indian-spices.html",
+          "uuid": "1c384df63c2f7e258869d3cdbe27184cc2d37009"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/assamese-spices-and-cooking.html",
+          "uuid": "cd8d8d19be9bf7fb05d6a13908fdcf319b55b09b"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/history-of-litthi-chokha.html",
+          "uuid": "4862e7b96685cc8be10eea21635172c5aa87d07f"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/kala-jeera-vs-cumin.html",
+          "uuid": "a665c5e66207bc0938ea801bacc2a7c87bf5ada4"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/uses-of-kasuri-methi.html",
+          "uuid": "e645c9f91ab0a6307911e226e2ee2dd45389159e"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/authentic-Indian-spices.html",
+          "uuid": "6582f70c4fb33be97dd40d8ecf6404a1137be485"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/bengali-panch-phoran.html",
+          "uuid": "623652f20d64b2f0021110e3c033592f34710a50"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/bengali-fish-cuisine.html",
+          "uuid": "12c1bf9bbedb267a647ef8eec08d56e5080298f5"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/black-pepper-vs-white-pepper.html",
+          "uuid": "423178c101e7da2ee6b0d90928daa916db35faf5"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/different-assamese-dishes-and-cuisine.html",
+          "uuid": "2414e313e2539bea654a01442321910f71ca57a5"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/amchur-powder-uses.html",
+          "uuid": "8f7effe667f04ec51cad07efe2346693cc24b6f9"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/dishes-with-poppy-seeds.html",
+          "uuid": "658027aabd1410096c364a235a6218b9e502c0ac"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/dishes-using-pav-bhaji-masala.html",
+          "uuid": "f3eb7224d5e918b1680528796fae80f1d3a97bb6"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/how-to-use-methi-seeds-in-recipes.html",
+          "uuid": "43b4891edb6ea2f2b3c85de37528a7e57ea10d6d"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/importance-of-chaat-masala.html",
+          "uuid": "59f9d5f3cbf6f6b3406afd283fee3ec79631b57f"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/indian-spice-mix-masala.html",
+          "uuid": "6493d1f80059a7b8ee8f99a1e4b826f3f646728b"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/jaljeera-masala-summer-refreshment.html",
+          "uuid": "ca76b241b11ab5857a87a8c664c8e05c48c4030b"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/meat-masala-uses.html",
+          "uuid": "6fd9bf1bfb2270e656a9283241e1ae5fc783bbd9"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/kitchen-king-masala-ultimate-spice-blend.html",
+          "uuid": "fca985db3cb45f6f4a40361845042689187f004b"
+        },
+        {
+          "url": "https://sunrisespices.in/blogs/meghalaya-traditional-food-culture.html",
+          "uuid": "c85e8798f9d0e23912984843b4f5ed2f7f837367"
+        }
+      ]
+    },
+    {
+      "name": "'food menu listing'",
+      "cluster": 7,
+      "pages": [
+        {
+          "url": "https://sunrisespices.in/recipe-collection.html",
+          "uuid": "b970194a916e4186c1e35a59c80a8e4c7f7121e6"
+        }
+      ]
+    }
+  ]
+}
