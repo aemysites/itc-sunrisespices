@@ -1,0 +1,341 @@
+{
+  "originUrl": "https://aashirvaadsvasti.in",
+  "aborted": false,
+  "lastCrawled": "https://aashirvaadsvasti.in/",
+  "urls": [
+    {
+      "url": "https://aashirvaadsvasti.in/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "2050f029a2eb4b55588d9ff973ecea44d9d6e75a"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/aashirvaad-svasti-buy-now.html",
+      "source": "SITEMAPS",
+      "targetPath": "/aashirvaad-svasti-buy-now",
+      "id": "7cb177315458b64ba9ac714f6a18b7c991f051f1"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/about-us.html",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us",
+      "id": "17c112b4ada0dcf53752b09e31168ad9116407e8"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/contact-us.html",
+      "source": "SITEMAPS",
+      "targetPath": "/contact-us",
+      "id": "e08f8bd4ab24a6df564d5ecc93c3e724d3cff8a8"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/error-page.html",
+      "source": "SITEMAPS",
+      "targetPath": "/error-page",
+      "id": "a67572a2e49462dd59810681b805226659da319b"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/error-page/404.html",
+      "source": "SITEMAPS",
+      "targetPath": "/error-page/404",
+      "id": "52e4ea889e67c7c9462f7a01a6ef14fff36b20f2"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/factory-address.html",
+      "source": "SITEMAPS",
+      "targetPath": "/factory-address",
+      "id": "429748d5ceddea49c90a8f562719fffdc8de9f10"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/faqs.html",
+      "source": "SITEMAPS",
+      "targetPath": "/faqs",
+      "id": "c4e8460db707685ad8e14994e7e2dd621c891dad"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/milk-with-report-card.html",
+      "source": "SITEMAPS",
+      "targetPath": "/milk-with-report-card",
+      "id": "84aee2eabcf155cf16e74ddb2155d168391c00b3"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product",
+      "id": "39f4dc5468cdb4a0f838ccd188f37cf951630150"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-mithaas-badam-halwa.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-mithaas-badam-halwa",
+      "id": "c6a1b39a14678d334084eed1824bcff5be28a502"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-mithaas-kesar-peda.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-mithaas-kesar-peda",
+      "id": "ff85bacdb36db6747d9e2aee2dd5ee226ff7794c"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-mithaas-moong-dal-halwa.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-mithaas-moong-dal-halwa",
+      "id": "62b7c9401ef5e5ba389febdbe5a9477162934aff"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-mithaas-shahi-peda.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-mithaas-shahi-peda",
+      "id": "66323835340bdbf13434794f02b2641a6e767052"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-90-lower-cholesterol-cow-ghee.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-90-lower-cholesterol-cow-ghee",
+      "id": "86be8223f562dc05c4c3e18efb8f59993b940436"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-cow-milk.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-cow-milk",
+      "id": "642458ce92a01326791d47a7fcd982bd522283f4"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-creamy-milk.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-creamy-milk",
+      "id": "1c5e88a460af03b579e2981eaf1d78d404fd8e6c"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-dahi.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-dahi",
+      "id": "aeb9c8a09f03cae18531129f3c8829d9c3560332"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-daily-milk.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-daily-milk",
+      "id": "7aba759bf1b761f60dd1b737ce68e8ace9eaea84"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-lactose-free-milk.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-lactose-free-milk",
+      "id": "e08f04d6a20ec352c46d2fe0140d9e5fc0480d6c"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-lassi.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-lassi",
+      "id": "e6e9be779949e7a8ae526125159f3a800bf00ec9"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-mishti-doi.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-mishti-doi",
+      "id": "440670bee74cd9d656e238def92fb6e4d72bbacd"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-organic-cow-ghee.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-organic-cow-ghee",
+      "id": "68cb8eac557338adff1696c41e59bb52a07e2faf"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-paneer-block.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-paneer-block",
+      "id": "9f840daf935b94a83881bc427064a63e4f7d42e1"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-paneer-slices.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-paneer-slices",
+      "id": "9914a05e82fd6459c424e1e90378a4271e97cef0"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-pure-cow-ghee.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-pure-cow-ghee",
+      "id": "b087973b6986c7872e3fc2d23bf787b90add88b9"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-select-milk.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-select-milk",
+      "id": "88ef1472f7aa2155b78bf45ead84a33b4ac37310"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/aashirvaad-svasti-toned-milk.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/aashirvaad-svasti-toned-milk",
+      "id": "dbff23f43bf38aa8eec28804cb5745f5d25460a4"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-product/ashirvaad-svasti-double-toned-milk.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-product/ashirvaad-svasti-double-toned-milk",
+      "id": "f79ce7be99ca0ee612ae64af2c3146a795fe90b7"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe",
+      "id": "bd6c9cdf0dada8dc87821993cc486b09482124d1"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/badam-halwa.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/badam-halwa",
+      "id": "6d49d7243e1b4edeb14b14eea275f3c68d248e3e"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/badusha.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/badusha",
+      "id": "2c25bbab8319573e627f1119cdf0b67f1975c0f6"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/besan-ladoo.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/besan-ladoo",
+      "id": "ef80095a93a502a4ee63bfb0e4e219deb6461a2a"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/bisi-bele-bath.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/bisi-bele-bath",
+      "id": "6af3097591a3dfd76ee7dee2764a961a455cbd81"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/chakkara-pongal.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/chakkara-pongal",
+      "id": "b1bc3a34ddb94129d3babc823e3cab7b6289bcdf"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/coconut-karanji.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/coconut-karanji",
+      "id": "5377e53704400a4f8f90dc6d819b44067b8f28ef"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/gajar-ka-halwa.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/gajar-ka-halwa",
+      "id": "5abdf210050d4bb101105af6ff783a6302c1b326"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/kul-kuls.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/kul-kuls",
+      "id": "9646b076910d3f1d9b8e5467435d3385f56b6164"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/malpua.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/malpua",
+      "id": "357744dafcda88a0f88be64a471993f5723daf83"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/mullu-murukku.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/mullu-murukku",
+      "id": "3de3272c7f8a8fdda4f8dbe3554b3a497a03d53d"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/naan-khatai.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/naan-khatai",
+      "id": "4012d8c3351c6764018f29907737142195050243"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/nei-appam.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/nei-appam",
+      "id": "64f9c664d117d062d2e8dea679abd4c00e3426df"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/obbattu.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/obbattu",
+      "id": "41362add6bac6d1fc5f2e430d86acf6f51a3269d"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/pineapple-kesari.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/pineapple-kesari",
+      "id": "364c9c0c1040142c190be87c0aa59a0f00ead3bb"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/pumpkin-kheer.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/pumpkin-kheer",
+      "id": "12c75ad032f5fd4fe4b1624b3b27fad48e3ba3aa"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/rava-ladoo.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/rava-ladoo",
+      "id": "8c7116f7a442c5c6c9bc45ddab2afbcce761b4fe"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/ribbon-murukku.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/ribbon-murukku",
+      "id": "8108ff745d402a284afe00da4f9b70ee4c6f6784"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/rose-cookies.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/rose-cookies",
+      "id": "5fef407a68958ebd6a528c54890d23b5f214dbd9"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/our-recipe/semiya-payasam.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-recipe/semiya-payasam",
+      "id": "210303c0e80343cf007b06033cae1267f0df88ed"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/privacy-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/privacy-policy",
+      "id": "33f5f0d754b7b6961492c1b60daf54ec29945732"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/report-page.html",
+      "source": "SITEMAPS",
+      "targetPath": "/report-page",
+      "id": "4af6b8d814d9e1d7ff809608b459c78ec74b7545"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/sitemap.html",
+      "source": "SITEMAPS",
+      "targetPath": "/sitemap",
+      "id": "fb790e562737da1fb8f9722b99dc7fac21053dd5"
+    },
+    {
+      "url": "https://aashirvaadsvasti.in/terms-of-use.html",
+      "source": "SITEMAPS",
+      "targetPath": "/terms-of-use",
+      "id": "ed578e10c77993edb6abf6925bc252bf684cb2ac"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none",
+  "error": null
+}
