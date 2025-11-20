@@ -37,4 +37,15 @@ export const customElements = [];
 /**
  * Custom transformers
  */
-export const customTransformers = {};
+export const customTransformers = {
+  header: (hookName, element) => {
+    if (hookName === TransformHook.beforeTransform) {
+      try {
+        element.querySelector('header')?.remove();
+        element.querySelector('footer')?.remove();
+      } catch (e) {
+        // noop
+      }
+    }
+  },
+};
