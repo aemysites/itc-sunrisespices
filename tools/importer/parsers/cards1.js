@@ -1,52 +1,60 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Cards (cards1) block: 2 columns, multiple rows, each row = card
-  // 1st col: image (mandatory), 2nd col: text (title mandatory, description/CTA optional)
-  // Header row
-  const headerRow = ['Cards (cards1)'];
-  const rows = [headerRow];
-
-  // Find the wrapper containing all cards
+  // Cards (cards1) block parser for Sunrise product carousel
   const wrapper = element.querySelector('.related-products__wrapper');
   if (!wrapper) return;
 
-  // Select all card slides
-  const slides = wrapper.querySelectorAll('.related-products__wrapper--slide');
+  const slides = Array.from(wrapper.querySelectorAll('.related-products__wrapper--slide'));
+  if (!slides.length) return;
+
+  const rows = [];
+  rows.push(['Cards (cards1)']);
+
   slides.forEach((slide) => {
-    // Card link (for possible CTA)
     const link = slide.querySelector('a.cta-analytics-card');
-    // Card image: use the first image inside .related-products__images
-    let img = null;
-    const imagesContainer = link ? link.querySelector('.related-products__images') : null;
-    if (imagesContainer) {
-      img = imagesContainer.querySelector('img');
+    if (!link) return;
+
+    // Main image and hover image
+    const imgContainer = link.querySelector('.related-products__images');
+    let imgMain = null;
+    let imgHover = null;
+    if (imgContainer) {
+      imgMain = imgContainer.querySelector('img.related-products__images--image.img-main');
+      imgHover = imgContainer.querySelector('img.related-products__images--image.img-show-on-hover');
     }
-    // Card title: h4 inside .related-products__card
-    let title = null;
-    const cardContent = link ? link.querySelector('.related-products__card') : null;
-    if (cardContent) {
-      title = cardContent.querySelector('h4');
+    // Defensive fallback: if not found, use first/second img
+    if (!imgMain && imgContainer) {
+      imgMain = imgContainer.querySelector('img');
     }
-    // Compose text cell: wrap title in link if link exists
-    let textCell = '';
-    if (title && link && link.href) {
-      // Wrap the title in an anchor with the correct href
-      const h = document.createElement('h4');
-      const a = document.createElement('a');
-      a.href = link.href;
-      a.textContent = title.textContent.trim();
-      h.appendChild(a);
-      textCell = h;
-    } else if (title) {
-      const h = document.createElement('h4');
-      h.textContent = title.textContent.trim();
-      textCell = h;
+    if (!imgHover && imgContainer) {
+      const imgs = imgContainer.querySelectorAll('img');
+      if (imgs.length > 1) imgHover = imgs[1];
     }
-    // Add row: [image, text]
-    rows.push([img, textCell]);
+
+    // Compose image cell (main and hover images)
+    let imageCell = null;
+    if (imgMain && imgHover) {
+      imageCell = document.createElement('div');
+      imageCell.appendChild(imgMain.cloneNode(true));
+      imageCell.appendChild(imgHover.cloneNode(true));
+    } else if (imgMain) {
+      imageCell = imgMain.cloneNode(true);
+    }
+
+    // Title (wrap in link)
+    const title = link.querySelector('.related-products__card-title');
+    let titleLink = null;
+    if (title) {
+      titleLink = document.createElement('a');
+      titleLink.href = link.href;
+      const strong = document.createElement('strong');
+      strong.textContent = title.textContent.trim();
+      titleLink.appendChild(strong);
+    }
+
+    rows.push([imageCell, titleLink]);
   });
 
-  // Create table and replace element
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(table);
+  const block = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(block);
 }

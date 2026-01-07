@@ -1,68 +1,56 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
+  // Columns block header row
+  const headerRow = ['Columns (columns10)'];
+
+  // Locate main content structure
   const mainBox = element.querySelector('.commercial-mainBox');
   if (!mainBox) return;
 
-  // Left column: heading (extract all text content)
-  const leftCol = mainBox.querySelector('.commercial-title');
-  let leftCellContent = [];
-  if (leftCol) {
-    leftCellContent.push(leftCol.cloneNode(true));
-    // Also extract and append all text nodes for completeness
-    const textNodes = Array.from(leftCol.querySelectorAll('*'))
-      .map(el => el.textContent.trim())
-      .filter(Boolean);
-    textNodes.forEach(txt => {
-      if (!leftCellContent.some(e => e.textContent && e.textContent.includes(txt))) {
-        leftCellContent.push(document.createTextNode(txt));
+  // LEFT COLUMN: Extract all text content, including line and formatting
+  const titleBox = mainBox.querySelector('.commercial-titleBox') || mainBox.querySelector('.commercial-title');
+  let leftColContent = document.createElement('div');
+  if (titleBox) {
+    // Include the horizontal line if present
+    const line = titleBox.querySelector('hr, .line, .commercial-titleBox > div');
+    if (line) leftColContent.appendChild(line.cloneNode(true));
+    // Include all heading text
+    Array.from(titleBox.childNodes).forEach((node) => {
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        leftColContent.appendChild(node.cloneNode(true));
       }
     });
   }
 
-  // Right column: extract image, play button, video link, and any visible overlay text
-  const rightCol = mainBox.querySelector('.commercial-thumbnail');
-  let rightCellContent = [];
-  if (rightCol) {
-    const thumbBox = rightCol.querySelector('.thumbnail-mainBox');
-    if (thumbBox) {
-      // Add the main image
-      const img = thumbBox.querySelector('img');
-      if (img) rightCellContent.push(img.cloneNode(true));
-      // Add play button
-      const playBtn = thumbBox.querySelector('button.vlb_playBtn');
-      if (playBtn) {
-        const btn = playBtn.cloneNode(true);
-        btn.setAttribute('aria-label', 'Play Video');
-        rightCellContent.push(btn);
+  // RIGHT COLUMN: Extract image, play button, and video link
+  const thumbnailBox = mainBox.querySelector('.commercial-thumbnail');
+  let rightColContent = document.createElement('div');
+  if (thumbnailBox) {
+    // Add image
+    const img = thumbnailBox.querySelector('img');
+    if (img) rightColContent.appendChild(img.cloneNode(true));
+    // Add play button overlay if present
+    const playBtn = thumbnailBox.querySelector('button.vlb_playBtn');
+    if (playBtn) rightColContent.appendChild(playBtn.cloneNode(true));
+    // Add video link using CORRECTED data-youtube-id value from HTML
+    const videoDiv = thumbnailBox.querySelector('[data-youtube-id]');
+    if (videoDiv && videoDiv.getAttribute('data-youtube-id')) {
+      let videoUrl = videoDiv.getAttribute('data-youtube-id');
+      // If typo (starts with 'ttp'), fix to 'https'
+      if (videoUrl.startsWith('ttp')) {
+        videoUrl = 'h' + videoUrl;
       }
-      // Add video link
-      const videoDiv = thumbBox.querySelector('[data-youtube-id]');
-      if (videoDiv) {
-        let videoUrl = videoDiv.getAttribute('data-youtube-id');
-        if (videoUrl && !videoUrl.startsWith('http')) {
-          videoUrl = 'h' + videoUrl;
-        }
-        const videoLink = document.createElement('a');
-        videoLink.href = videoUrl;
-        videoLink.textContent = 'Watch Video';
-        rightCellContent.push(videoLink);
-      }
+      const videoLink = document.createElement('a');
+      videoLink.href = videoUrl;
+      videoLink.textContent = 'Watch Video';
+      rightColContent.appendChild(videoLink);
     }
-    // Extract all visible text from rightCol (including overlays/logos if present in HTML)
-    const overlayTexts = Array.from(rightCol.querySelectorAll('*'))
-      .map(el => el.textContent.trim())
-      .filter(Boolean);
-    overlayTexts.forEach(txt => {
-      if (!rightCellContent.some(e => e.textContent && e.textContent.includes(txt))) {
-        rightCellContent.push(document.createTextNode(txt));
-      }
-    });
   }
 
-  const headerRow = ['Columns (columns10)'];
-  const contentRow = [leftCellContent, rightCellContent];
-  const cells = [headerRow, contentRow];
+  // Build the columns block table
+  const tableRows = [headerRow, [leftColContent, rightColContent]];
+  const block = WebImporter.DOMUtils.createTable(tableRows, document);
 
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-  element.replaceWith(table);
+  // Replace the original element
+  element.replaceWith(block);
 }

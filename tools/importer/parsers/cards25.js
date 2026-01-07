@@ -1,72 +1,54 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Cards (cards25) block parser
-  const cardsContainer = element.querySelector('.swiper-wrapper');
-  if (!cardsContainer) return;
+  // Cards block header
+  const headerRow = ['Cards (cards25)'];
 
-  // Use all .swiper-slide elements (all cards)
-  const cardEls = Array.from(cardsContainer.querySelectorAll('.swiper-slide'));
-  if (!cardEls.length) return;
+  // Find the parent container for cards
+  const swiperWrapper = element.querySelector('.swiper-wrapper');
+  if (!swiperWrapper) return;
 
-  const rows = [];
-  rows.push(['Cards (cards25)']);
+  // Get all card slides
+  const slides = swiperWrapper.querySelectorAll('.swiper-slide');
+  const rows = [headerRow];
 
-  cardEls.forEach(cardEl => {
-    // Find the card anchor (main clickable area)
-    const cardLink = cardEl.querySelector('a.cta-analytics-card');
-    // Find the card image
-    const cardImg = cardEl.querySelector('img.latestblog-cards__img');
-    // Find the label (e.g., Dry Spices)
-    const label = cardEl.querySelector('p.primary-tag');
-    // Find the title
-    const title = cardEl.querySelector('h3.blog-details__title');
-    // Find the description
-    const desc = cardEl.querySelector('p.blog-details__description');
-    // Find the CTA (READ NOW)
-    const cta = cardEl.querySelector('.blog-details__cta');
-    // Find download link (anchor only)
-    const downloadLink = cardEl.querySelector('.icon-container-download a.download-icon__link');
-    // Find share icon (anchor or img)
-    const shareIcon = cardEl.querySelector('.icon-container-share img');
+  slides.forEach((slide) => {
+    // Each card is inside .card-outercontainer
+    const card = slide.querySelector('.card-outercontainer');
+    if (!card) return;
 
-    // --- First cell: image and label ---
-    const firstCellContent = [];
-    if (cardImg) firstCellContent.push(cardImg);
-    if (label) firstCellContent.push(label);
+    // Image (mandatory)
+    const img = card.querySelector('img.latestblog-cards__img');
 
-    // --- Second cell: title, description, CTA, download, share ---
-    const secondCellContent = [];
-    if (title) secondCellContent.push(title);
-    if (desc) secondCellContent.push(desc);
-    // If there's a CTA and a cardLink, wrap CTA in the link
-    if (cta && cardLink && cardLink.href) {
+    // Text content (mandatory)
+    const textContent = document.createElement('div');
+    // Tag (optional, shown visually)
+    const tag = card.querySelector('p.primary-tag');
+    if (tag) textContent.appendChild(tag.cloneNode(true));
+    // Title (h3)
+    const title = card.querySelector('h3.blog-details__title');
+    if (title) textContent.appendChild(title.cloneNode(true));
+    // Description (p)
+    const desc = card.querySelector('p.blog-details__description');
+    if (desc) textContent.appendChild(desc.cloneNode(true));
+    // CTA (READ NOW) - must be a clickable link to the blog post
+    const link = card.querySelector('a.cta-analytics-card');
+    const cta = card.querySelector('.blog-details__cta');
+    if (cta && link) {
       const ctaLink = document.createElement('a');
-      ctaLink.href = cardLink.href;
-      ctaLink.append(...Array.from(cta.childNodes));
-      secondCellContent.push(ctaLink);
-    } else if (cta) {
-      secondCellContent.push(cta);
+      ctaLink.href = link.href;
+      ctaLink.innerHTML = cta.innerHTML;
+      ctaLink.className = cta.className;
+      textContent.appendChild(ctaLink);
     }
-    // Add download link if present
-    if (downloadLink) {
-      const downloadAnchor = document.createElement('a');
-      downloadAnchor.href = downloadLink.href;
-      downloadAnchor.setAttribute('download', '');
-      const downloadImg = downloadLink.querySelector('img');
-      if (downloadImg) downloadAnchor.appendChild(downloadImg.cloneNode(true));
-      secondCellContent.push(downloadAnchor);
-    }
-    // Add share icon if present
-    if (shareIcon) {
-      secondCellContent.push(shareIcon.cloneNode(true));
-    }
+    // Do NOT include download/share icons in the card content cell
 
     rows.push([
-      firstCellContent,
-      secondCellContent
+      img ? img : '',
+      textContent
     ]);
   });
 
+  // Create the table block
   const block = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(block);
 }

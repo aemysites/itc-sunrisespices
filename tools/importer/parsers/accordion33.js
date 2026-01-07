@@ -1,46 +1,42 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header row
+  // Header row for Accordion block
   const headerRow = ['Accordion (accordion33)'];
   const rows = [headerRow];
 
-  // Find the accordion items container
-  const accWrap = element.querySelector('.accordion-component__acc--wrap');
-  if (accWrap) {
-    // Find all accordion items (visible and hidden)
-    const items = accWrap.querySelectorAll('.accordion-component__acc--item');
-    items.forEach((item) => {
-      // Title cell: find the button with the title span
-      const btn = item.querySelector('button');
-      let titleSpan = btn && btn.querySelector('.accordion-component__acc--title');
-      let titleCell = titleSpan ? titleSpan : btn;
+  // Find all accordion items (even if hidden)
+  const itemSelector = '.accordion-component__acc--item';
+  const items = element.querySelectorAll(itemSelector);
 
-      // Content cell: find the panel
-      const panel = item.querySelector('[data-cmp-hook-accordion="panel"]');
-      let contentCell = null;
-      if (panel) {
-        const cmpText = panel.querySelector('.cmp-text');
-        contentCell = cmpText ? cmpText : panel;
-      }
-      if (titleCell && contentCell) {
-        rows.push([titleCell, contentCell]);
-      }
-    });
-  }
+  items.forEach((item) => {
+    // Title cell: Find the button and its title span
+    const button = item.querySelector('button');
+    let titleSpan = button && button.querySelector('.accordion-component__acc--title');
+    // Defensive: fallback to button text if span not found
+    let titleContent = titleSpan || button;
 
-  // Find the Load More button (outside accordion items)
-  const loadMoreWrap = element.querySelector('.accordion-component__btnwrap');
-  let loadMoreBtn = null;
-  if (loadMoreWrap) {
-    loadMoreBtn = loadMoreWrap.querySelector('button');
-  }
+    // Content cell: Find the panel and its content
+    const panel = item.querySelector('[data-cmp-hook-accordion="panel"]');
+    let content = null;
+    if (panel) {
+      // Look for .cmp-text inside panel
+      const cmpText = panel.querySelector('.cmp-text');
+      content = cmpText || panel;
+    }
 
-  // Create table
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  // Replace element with table and Load More button (if present)
+    // Only add rows if title and content exist
+    if (titleContent && content) {
+      rows.push([titleContent, content]);
+    }
+  });
+
+  // Replace the original element with the block table
+  const block = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(block);
+
+  // Insert Load More button after the table if present (no <hr> divider)
+  const loadMoreBtn = element.querySelector('.accordion-component__btnwrap button');
   if (loadMoreBtn) {
-    element.replaceWith(table, loadMoreBtn);
-  } else {
-    element.replaceWith(table);
+    block.after(loadMoreBtn);
   }
 }

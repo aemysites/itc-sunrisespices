@@ -1,73 +1,82 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Cards (cards18) block parsing
-  // 1. Header row
+  // Cards (cards18) block: 2 columns, multiple rows, first row is header
   const headerRow = ['Cards (cards18)'];
   const rows = [headerRow];
 
   // Find the card list container
-  const cardList = element.querySelector('.article-listing__results--list');
-  if (!cardList) return;
+  const cardsList = element.querySelector('.article-listing__results--list');
+  if (!cardsList) return;
 
-  // Select all card items
-  const cardItems = cardList.querySelectorAll('.article-listing__results--item');
-
+  // Get all card items
+  const cardItems = cardsList.querySelectorAll('.article-listing__results--item');
   cardItems.forEach((cardItem) => {
-    // Card main anchor (wraps image and text)
-    const cardLink = cardItem.querySelector('a.cta-analytics-card');
-    if (!cardLink) return;
+    // Card image
+    const img = cardItem.querySelector('img.latestblog-cards__img');
+    // Card text content: label, title, description, CTA, icons
+    const details = cardItem.querySelector('.blog-details');
+    if (!img || !details) return;
 
-    // --- IMAGE CELL ---
-    // Find the main image inside the card
-    const image = cardLink.querySelector('img.latestblog-cards__img');
-    // Defensive: If no image, skip this card
-    if (!image) return;
-
-    // --- TEXT CELL ---
-    // Build text cell content
-    const textContent = [];
-
-    // Tag/label (Dry Spices)
-    const tag = cardLink.querySelector('p.primary-tag');
-    if (tag) textContent.push(tag);
-
+    // Label (Dry Spices)
+    const label = cardItem.querySelector('.primary-tag');
     // Title (h3)
-    const title = cardLink.querySelector('h3.blog-details__title');
-    if (title) textContent.push(title);
-
+    const title = details.querySelector('.blog-details__title');
     // Description (p)
-    const desc = cardLink.querySelector('p.blog-details__description');
-    if (desc) textContent.push(desc);
-
-    // CTA (READ NOW)
-    const cta = cardLink.querySelector('.blog-details__cta');
-    if (cta) textContent.push(cta);
-
-    // Download icon (link)
-    const downloadIconContainer = cardItem.querySelector('.icon-container-download');
-    if (downloadIconContainer) {
-      const downloadLink = downloadIconContainer.querySelector('a.download-icon__link');
-      if (downloadLink) textContent.push(downloadLink);
+    const desc = details.querySelector('.blog-details__description');
+    // CTA (div with link and arrow icon)
+    let ctaLink = null;
+    const cardLink = cardItem.querySelector('a.cta-analytics-card');
+    if (cardLink) {
+      ctaLink = document.createElement('a');
+      ctaLink.href = cardLink.href;
+      ctaLink.className = 'card-cta';
+      ctaLink.textContent = 'READ NOW ';
+      // Add the arrow icon from the original CTA
+      const ctaIcon = details.querySelector('.blog-details__cta img');
+      if (ctaIcon) {
+        // Wrap the icon in a span for accessibility
+        const iconSpan = document.createElement('span');
+        iconSpan.appendChild(ctaIcon.cloneNode(true));
+        ctaLink.appendChild(iconSpan);
+      }
+    }
+    // Download/share icons
+    const iconLinks = [];
+    const downloadIcon = cardItem.querySelector('.icon-container-download a.download-icon__link');
+    if (downloadIcon) {
+      const dl = document.createElement('a');
+      dl.href = downloadIcon.href;
+      dl.textContent = 'Download';
+      dl.className = 'card-download';
+      iconLinks.push(dl);
+    }
+    const shareIcon = cardItem.querySelector('.icon-container-share img');
+    if (shareIcon) {
+      // Wrap the share icon in a span for accessibility
+      const shareSpan = document.createElement('span');
+      shareSpan.appendChild(shareIcon.cloneNode(true));
+      shareSpan.className = 'card-share';
+      iconLinks.push(shareSpan);
     }
 
-    // Share icon (img only, no link)
-    const shareIconContainer = cardItem.querySelector('.icon-container-share');
-    if (shareIconContainer) {
-      const shareImg = shareIconContainer.querySelector('img');
-      if (shareImg) textContent.push(shareImg);
-    }
+    // Compose the text cell
+    const textCell = [];
+    if (label) textCell.push(label);
+    if (title) textCell.push(title);
+    if (desc) textCell.push(desc);
+    iconLinks.forEach((el) => textCell.push(el));
+    if (ctaLink) textCell.push(ctaLink);
 
-    // Add row: [image, text content]
-    rows.push([image, textContent]);
+    rows.push([img, textCell]);
   });
 
-  // Create table block
+  // Create the table block
   const block = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(block);
 
-  // Place Load More button below the table, not inside it
+  // Place Load More button after the table (not inside)
   const loadMoreBtn = element.querySelector('.article-listing__btn');
   if (loadMoreBtn) {
-    block.insertAdjacentElement('afterend', loadMoreBtn);
+    block.after(loadMoreBtn);
   }
 }

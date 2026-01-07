@@ -1,113 +1,55 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
   // Cards (cards6) block parser
-  const cardsContainer = element.querySelector('.latestrecipe-container .swiper-wrapper');
-  if (!cardsContainer) return;
+  const swiperContainer = element.querySelector('.latestrecipe-container .swiper-wrapper');
+  if (!swiperContainer) return;
 
-  const cardNodes = Array.from(cardsContainer.querySelectorAll('.swiper-slide'));
-  if (!cardNodes.length) return;
-
+  const cardSlides = Array.from(swiperContainer.querySelectorAll('.swiper-slide'));
   const headerRow = ['Cards (cards6)'];
-  const rows = [headerRow];
 
-  cardNodes.forEach(cardNode => {
-    // Card image (first cell)
-    const img = cardNode.querySelector('img.latestrecipe-cards__img');
-    if (!img) return;
+  const rows = cardSlides.map((slide) => {
+    // Image cell
+    const img = slide.querySelector('.latestrecipe-cards__img');
+    const imageCell = img ? img : slide.querySelector('img');
 
-    // Card link (wrap image in anchor if present)
-    const cardLink = cardNode.querySelector('a.cta-analytics-card');
-    let imgCell = img;
-    if (cardLink && cardLink.href) {
-      const a = document.createElement('a');
-      a.href = cardLink.href;
-      a.appendChild(img.cloneNode(true));
-      imgCell = a;
-    }
+    // Tag/label
+    const tag = slide.querySelector('.primary-tag');
 
-    // Card text (second cell)
-    const details = cardNode.querySelector('.recipe-details');
-    if (!details) return;
+    // Card details
+    const details = slide.querySelector('.recipe-details');
+    const title = details?.querySelector('.recipe-details__title');
+    const level = details?.querySelector('.recipe-details__level');
+    const time = details?.querySelector('.recipe-details__time');
 
-    // Compose text cell
-    const textCell = document.createElement('div');
-
-    // Pill label (e.g. Spicy, Savoury, Hot)
-    const pill = cardNode.querySelector('.primary-tag');
-    if (pill) {
-      const pillEl = document.createElement('span');
-      pillEl.textContent = pill.textContent.trim();
-      pillEl.style.background = pill.style.background;
-      pillEl.style.color = pill.style.color || 'white';
-      pillEl.style.padding = '2px 8px';
-      pillEl.style.borderRadius = '12px';
-      pillEl.style.fontWeight = 'bold';
-      pillEl.style.fontSize = '14px';
-      pillEl.style.display = 'inline-block';
-      pillEl.style.marginBottom = '8px';
-      textCell.appendChild(pillEl);
-    }
-
-    // Title (h3)
-    const title = details.querySelector('.recipe-details__title');
+    // Compose card main content (tag, title, level, time)
+    const cardContent = [];
+    if (tag) cardContent.push(tag.cloneNode(true));
     if (title) {
-      const h = document.createElement('h3');
-      h.textContent = title.textContent.trim();
-      textCell.appendChild(h);
+      // Heading for title as in markdown example
+      const heading = document.createElement('h3');
+      heading.textContent = title.textContent;
+      cardContent.push(heading);
     }
-
-    // Level (p)
-    const level = details.querySelector('.recipe-details__level');
     if (level) {
-      const pLevel = document.createElement('p');
-      const icon = level.querySelector('img');
-      if (icon) pLevel.appendChild(icon.cloneNode(true));
-      // Only the text after the icon
-      const levelText = level.childNodes[level.childNodes.length - 1].textContent.trim();
-      pLevel.appendChild(document.createTextNode(' ' + levelText));
-      textCell.appendChild(pLevel);
+      // Remove icon and keep only text
+      const levelText = document.createElement('div');
+      levelText.textContent = level.textContent.trim();
+      cardContent.push(levelText);
     }
-
-    // Time (p)
-    const time = details.querySelector('.recipe-details__time');
     if (time) {
-      const pTime = document.createElement('p');
-      const icon = time.querySelector('img');
-      if (icon) pTime.appendChild(icon.cloneNode(true));
-      // Only the text after the icon
-      const timeText = time.childNodes[time.childNodes.length - 1].textContent.trim();
-      pTime.appendChild(document.createTextNode(' ' + timeText));
-      textCell.appendChild(pTime);
+      // Remove icon and keep only text
+      const timeText = document.createElement('div');
+      timeText.textContent = time.textContent.trim();
+      cardContent.push(timeText);
     }
 
-    // Action icons (download/share)
-    const actionsDiv = document.createElement('div');
-    actionsDiv.style.marginTop = '8px';
-    const downloadIcon = cardNode.querySelector('.icon-container-download a.download-icon__link');
-    if (downloadIcon) {
-      const a = document.createElement('a');
-      a.href = downloadIcon.href;
-      a.textContent = 'Download';
-      a.setAttribute('download', '');
-      actionsDiv.appendChild(a);
-    }
-    const shareIconContainer = cardNode.querySelector('.icon-container-share');
-    if (shareIconContainer) {
-      const shareImg = shareIconContainer.querySelector('img');
-      if (shareImg) {
-        const span = document.createElement('span');
-        span.title = 'Share';
-        span.appendChild(shareImg.cloneNode(true));
-        actionsDiv.appendChild(span);
-      }
-    }
-    if (actionsDiv.childNodes.length) {
-      textCell.appendChild(actionsDiv);
-    }
-
-    rows.push([imgCell, textCell]);
+    return [imageCell, cardContent];
   });
 
-  const block = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(block);
+  const table = WebImporter.DOMUtils.createTable([
+    headerRow,
+    ...rows,
+  ], document);
+
+  element.replaceWith(table);
 }

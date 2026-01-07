@@ -1,65 +1,60 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to extract CTA link if present
-  function extractCTA(rightContent) {
-    const ctaSpan = rightContent.querySelector('.spice-corner__right--cta, span.position-absolute');
+  // Helper to extract ONLY the active image from the left side of each slide
+  function getActiveImage(productsDiv) {
+    // The active image is inside the <a> with class 'active-link'
+    const activeLink = productsDiv.querySelector('.active-link img');
+    if (activeLink) return activeLink;
+    // Fallback: first image if no active-link
+    const firstImg = productsDiv.querySelector('img');
+    return firstImg || null;
+  }
+
+  // Helper to extract the right content (title, description, CTA)
+  function getRightContent(rightDiv) {
+    const content = [];
+    // Title
+    const title = rightDiv.querySelector('h3');
+    if (title) content.push(title);
+    // Description (may be multiple paragraphs)
+    const desc = rightDiv.querySelector('.spice-corner__right--desc');
+    if (desc) {
+      const paragraphs = Array.from(desc.querySelectorAll('p')).filter(p => p.textContent.trim());
+      if (paragraphs.length) content.push(...paragraphs);
+    }
+    // CTA
+    const ctaSpan = rightDiv.querySelector('.spice-corner__right--cta');
     if (ctaSpan) {
       const ctaLink = ctaSpan.querySelector('a');
-      if (ctaLink) return ctaLink;
+      if (ctaLink) content.push(ctaLink);
     }
-    return null;
+    return content;
   }
 
   // Find all slides
-  const slides = Array.from(element.querySelectorAll('.swiper-slide'));
-
-  // Table header
-  const headerRow = ['Carousel (carousel24)'];
-  const rows = [headerRow];
+  const slides = element.querySelectorAll('.swiper-slide');
+  const rows = [['Carousel (carousel24)']]; // Header row
 
   slides.forEach(slide => {
-    // Left: single featured image (with link) in .spice-corner__products
-    const products = slide.querySelector('.spice-corner__products');
-    let featuredLink = null;
-    if (products) {
-      // Prefer the one with 'active-link', else first
-      featuredLink = products.querySelector('a.active-link') || products.querySelector('a');
-    }
-    // Defensive: fallback to first image in slide
-    if (!featuredLink) {
-      const img = slide.querySelector('img');
-      if (img) featuredLink = img;
-    }
-
-    // Right: text content
-    const right = slide.querySelector('.spice-corner__right');
-    let rightContentArr = [];
-    if (right) {
-      const rightContent = right.querySelector('.spice-corner__right--content');
-      if (rightContent) {
-        // Heading
-        const heading = rightContent.querySelector('h3');
-        if (heading) rightContentArr.push(heading);
-        // Description
-        const desc = rightContent.querySelector('.spice-corner__right--desc');
-        if (desc) rightContentArr.push(desc);
-        // CTA
-        const cta = extractCTA(rightContent);
-        if (cta) rightContentArr.push(cta);
-      } else {
-        // Fallback: all children of right
-        rightContentArr = Array.from(right.children);
+    // Left: only the active image
+    const leftDiv = slide.querySelector('.spice-corner__left');
+    let img = null;
+    if (leftDiv) {
+      const productsDiv = leftDiv.querySelector('.spice-corner__products');
+      if (productsDiv) {
+        img = getActiveImage(productsDiv);
       }
     }
-
-    // Compose row: [featured image (with link), text content]
-    rows.push([
-      featuredLink || '',
-      rightContentArr.length ? rightContentArr : ''
-    ]);
+    // Right: text content
+    const rightDiv = slide.querySelector('.spice-corner__right');
+    let rightContent = [];
+    if (rightDiv) {
+      rightContent = getRightContent(rightDiv);
+    }
+    // Add row: [image, right content]
+    rows.push([img, rightContent]);
   });
 
-  // Create table and replace
   const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

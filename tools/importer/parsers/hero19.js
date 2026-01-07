@@ -1,41 +1,38 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Hero (hero19) block: 1 column, 3 rows
-  // Row 1: block name
-  // Row 2: background image (none in this case)
-  // Row 3: heading, subheading, CTA, and search input
-
-  // --- Row 1: Header ---
+  // 1. Header row for Hero block
   const headerRow = ['Hero (hero19)'];
 
-  // --- Row 2: Background Image (none present) ---
-  const bgImageRow = [''];
+  // 2. Background image row (none present in this HTML)
+  const imageRow = ['']; // leave blank if no image
 
-  // --- Row 3: Content ---
-  const contentElements = [];
+  // 3. Content row: Heading, Subheading, Supporting text, Search bar
+  const contentFragments = [];
+
+  // Extract headings and paragraph
   const headingContainer = element.querySelector('.article-listing__heading');
   if (headingContainer) {
     const headings = headingContainer.querySelectorAll('h2');
-    headings.forEach(h => contentElements.push(h));
-    const subheading = headingContainer.querySelector('p');
-    if (subheading) contentElements.push(subheading);
+    const paragraph = headingContainer.querySelector('p');
+    headings.forEach(h => contentFragments.push(h));
+    if (paragraph) contentFragments.push(paragraph);
   }
-  // Add search form (including input placeholder and reset button)
+
+  // Extract the search bar form
   const searchForm = element.querySelector('.article-listing__form');
   if (searchForm) {
-    contentElements.push(searchForm);
+    contentFragments.push(searchForm);
   }
 
-  const contentRow = [contentElements];
-
-  // Build table
-  const cells = [
+  // Compose table rows
+  const rows = [
     headerRow,
-    bgImageRow,
-    contentRow,
+    imageRow,
+    [contentFragments]
   ];
-  const block = WebImporter.DOMUtils.createTable(cells, document);
 
+  // Create block table
+  const block = WebImporter.DOMUtils.createTable(rows, document);
   // Replace original element
   element.replaceWith(block);
 }

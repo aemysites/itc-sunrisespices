@@ -1,46 +1,78 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper: extract left column content
-  function getLeftColumnContent() {
-    const leftCol = element.querySelector('.dishinfo-container');
-    if (!leftCol) return null;
-    // Compose left column: tags, icons, description, share button
-    const tags = leftCol.querySelector('.dishinfo-tag__container');
-    const icons = leftCol.querySelector('.dishinfo-brief__container');
-    const description = leftCol.querySelector('.dishinfo-description');
-    const shareBtn = leftCol.querySelector('.dishinfo-btns');
-    // Compose into a single div
-    const leftContent = document.createElement('div');
-    if (tags) leftContent.appendChild(tags);
-    if (icons) leftContent.appendChild(icons);
-    if (description) leftContent.appendChild(description);
-    if (shareBtn) leftContent.appendChild(shareBtn);
-    return leftContent;
+  // Helper: clone and clean content
+  function cloneAndClean(node, selectorsToRemove = []) {
+    const clone = node.cloneNode(true);
+    selectorsToRemove.forEach(sel => {
+      clone.querySelectorAll(sel).forEach(el => el.remove());
+    });
+    return clone;
   }
 
-  // Helper: extract right column content (ingredients)
-  function getRightColumnContent() {
-    const rightCol = element.querySelector('.dishinfo-ingredients');
-    if (!rightCol) return null;
-    const ingredientsCard = rightCol.querySelector('.ingredients-container');
-    if (!ingredientsCard) return null;
-    return ingredientsCard;
+  // Get main columns
+  const section = element.querySelector('section.container.dishinfo-wrapper');
+  if (!section) return;
+  const row = section.querySelector('.row');
+  if (!row) return;
+
+  // Left column: dish info
+  const leftCol = row.querySelector('.dishinfo-container');
+  // Right column: ingredients
+  const rightCol = row.querySelector('.dishinfo-ingredients');
+  if (!leftCol || !rightCol) return;
+
+  // Compose left column content (only visible relevant blocks)
+  const leftCellContent = [];
+  // Tags
+  const tagContainer = leftCol.querySelector('.dishinfo-tag__container');
+  if (tagContainer) leftCellContent.push(cloneAndClean(tagContainer));
+  // Brief info
+  const briefContainer = leftCol.querySelector('.dishinfo-brief__container');
+  if (briefContainer) leftCellContent.push(cloneAndClean(briefContainer));
+  // Description
+  const descContainer = leftCol.querySelector('.dishinfo-description');
+  if (descContainer) leftCellContent.push(cloneAndClean(descContainer));
+  // Share button
+  const shareBtn = leftCol.querySelector('.dishinfo-btns');
+  if (shareBtn) leftCellContent.push(cloneAndClean(shareBtn));
+  // Social share modal (only visible content, remove input/button controls)
+  const shareModal = leftCol.querySelector('.share-component');
+  if (shareModal) {
+    // Remove input fields and navigation buttons from modal
+    leftCellContent.push(cloneAndClean(shareModal, [
+      'input',
+      'button',
+      '.swiper-button-prev',
+      '.swiper-button-next',
+      '.swiper-scrollbar',
+      '.swiper-pagination',
+      '.ingredients-swiper__nav',
+      '.ingredients-swiper__pagination'
+    ]));
+  }
+
+  // Compose right column content (ingredients, remove hidden swiper controls)
+  const ingredientsContainer = rightCol.querySelector('.ingredients-container');
+  let rightCellContent = [];
+  if (ingredientsContainer) {
+    rightCellContent = [cloneAndClean(ingredientsContainer, [
+      '.swiper',
+      '.swiper-button-prev',
+      '.swiper-button-next',
+      '.swiper-scrollbar',
+      '.swiper-pagination',
+      '.ingredients-swiper__nav',
+      '.ingredients-swiper__pagination',
+      '.ingredients-list__gradient'
+    ])];
   }
 
   // Build table rows
   const headerRow = ['Columns (columns14)'];
-  const leftContent = getLeftColumnContent();
-  const rightContent = getRightColumnContent();
+  const columnsRow = [leftCellContent, rightCellContent];
+  const cells = [headerRow, columnsRow];
 
-  // Defensive: If either column missing, fallback to whole element
-  const cellsRow = [leftContent || element, rightContent || element];
-
-  // Create block table
-  const table = WebImporter.DOMUtils.createTable([
-    headerRow,
-    cellsRow
-  ], document);
-
-  // Replace original element
-  element.replaceWith(table);
+  // Replace element with block table
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(block);
 }

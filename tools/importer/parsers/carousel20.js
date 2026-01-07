@@ -1,46 +1,40 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Carousel (carousel20) block
-  const headerRow = ['Carousel (carousel20)'];
-  const rows = [headerRow];
-
-  // Find the carousel wrapper
-  const swiperWrapper = element.querySelector('.swiper-wrapper');
-  if (!swiperWrapper) return;
-
-  // Select all slides
-  const slides = swiperWrapper.querySelectorAll('.swiper-slide');
-
-  slides.forEach((slide) => {
-    // Find the image (always in .banner-section picture img)
+  // Helper to extract image from a slide
+  function getImage(slide) {
     const img = slide.querySelector('picture img');
-    if (!img) return;
+    return img;
+  }
 
-    // Find the banner content (text)
-    const bannerContent = slide.querySelector('.banner-content');
-    let textCell = '';
-    if (bannerContent) {
-      // Get heading (h1)
-      const heading = bannerContent.querySelector('h1');
-      // Get description (banner-content__text)
-      const descDiv = bannerContent.querySelector('.banner-content__text');
-      // Compose text cell
-      const cellContent = [];
-      if (heading) cellContent.push(heading);
-      if (descDiv) {
-        // Clone and preserve all <p>, including <p>&nbsp;</p>
-        const descDivClone = descDiv.cloneNode(true);
-        cellContent.push(descDivClone);
-      }
-      if (cellContent.length > 0) {
-        textCell = cellContent;
-      }
-    }
-    // Add row: [image, text content]
-    rows.push([img, textCell]);
+  // Helper to extract text content from a slide (preserve all paragraphs, including empty ones)
+  function getTextContent(slide) {
+    const heading = slide.querySelector('h1');
+    const desc = slide.querySelector('.banner-content__text');
+    const frag = document.createElement('div');
+    if (heading) frag.appendChild(heading.cloneNode(true));
+    if (desc) frag.appendChild(desc.cloneNode(true));
+    return frag.childNodes.length ? frag : null;
+  }
+
+  // Get all carousel slides
+  const slides = Array.from(
+    element.querySelectorAll('.swiper-slide.primary-swiper-slide')
+  );
+
+  // Build table rows for each slide
+  const rows = slides.map((slide) => {
+    const img = getImage(slide);
+    const text = getTextContent(slide);
+    return [img, text];
   });
 
-  // Create table and replace
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(table);
+  // Table header (must be a single cell)
+  const headerRow = ['Carousel (carousel20)'];
+
+  // Build the table
+  const cells = [headerRow, ...rows];
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+
+  // Replace original element
+  element.replaceWith(block);
 }

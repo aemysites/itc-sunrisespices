@@ -1,65 +1,38 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to get direct children by class
-  function getChildByClass(cls) {
-    return Array.from(element.children).find(el => el.classList.contains(cls));
-  }
-
-  // 1. Header row
+  // Table header row: must be a single cell row
   const headerRow = ['Carousel (carousel8)'];
 
-  // 2. Slide row construction
-  // Left column: image only
-  // Right column: text content (heading + description) + navigation arrows
+  // Extract image (mandatory for carousel slide)
+  const imgEl = element.querySelector('.masalapacket img');
 
-  // Get image element
-  const packetDiv = getChildByClass('masalapacket');
-  let imgEl = null;
-  if (packetDiv) {
-    imgEl = packetDiv.querySelector('img');
-  }
-
-  // Get heading
-  const headingDiv = getChildByClass('masalaname');
-  // Get description
-  const descDiv = getChildByClass('masalsubtext');
-
-  // Get navigation arrows
-  const arrowContainer = getChildByClass('spicearrow-icons');
-  let arrowImgs = [];
-  if (arrowContainer) {
-    arrowImgs = Array.from(arrowContainer.querySelectorAll('img')).map(img => img.cloneNode(true));
-  }
-
-  // Compose right cell content
-  const rightCellContent = [];
-  if (headingDiv) {
+  // Compose text cell: title (as heading) + description
+  const textCell = [];
+  const titleEl = element.querySelector('.masalaname');
+  if (titleEl) {
     const h2 = document.createElement('h2');
-    h2.innerHTML = headingDiv.innerHTML;
-    rightCellContent.push(h2);
+    h2.innerHTML = titleEl.innerHTML;
+    textCell.push(h2);
   }
-  if (descDiv) {
-    const p = document.createElement('p');
-    p.innerHTML = descDiv.innerHTML;
-    rightCellContent.push(p);
-  }
-  if (arrowImgs.length) {
-    const navDiv = document.createElement('div');
-    navDiv.style.display = 'flex';
-    navDiv.style.gap = '16px';
-    arrowImgs.forEach(img => navDiv.appendChild(img));
-    rightCellContent.push(navDiv);
+  const descEl = element.querySelector('.masalsubtext');
+  if (descEl) {
+    textCell.push(descEl);
   }
 
-  // Build table rows
-  const rows = [
-    headerRow,
-    [imgEl, rightCellContent]
-  ];
+  // Extract carousel navigation arrows (SVG images)
+  const navIcons = Array.from(element.querySelectorAll('.spicearrow-icons img'));
+  if (navIcons.length) {
+    navIcons.forEach(icon => textCell.push(icon.cloneNode(true)));
+  }
 
-  // Create block table
-  const block = WebImporter.DOMUtils.createTable(rows, document);
+  // Build rows: only add if image exists
+  const rows = [];
+  if (imgEl) {
+    rows.push([imgEl, textCell]);
+  }
 
-  // Replace original element
+  // Final table
+  const cells = [headerRow, ...rows];
+  const block = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(block);
 }
