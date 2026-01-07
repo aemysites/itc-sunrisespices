@@ -1,55 +1,84 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Cards (cards27) block: 2 columns, each row is a card with image and text
+  // Header row for the Cards (cards27) block
   const headerRow = ['Cards (cards27)'];
-  const rows = [headerRow];
 
-  // Extract cards from ALL sections (not just first visible)
-  const contentContainers = Array.from(element.querySelectorAll('.article-listing__results--content'));
-  contentContainers.forEach((container) => {
-    // Find the ul with cards
-    const ul = container.querySelector('ul.article-listing__results--list');
+  // Helper to extract cards from a given ul list
+  function extractCardsFromList(ul) {
+    const rows = [];
+    const cardItems = ul.querySelectorAll('li');
+    cardItems.forEach((li) => {
+      // Find anchor
+      const anchor = li.querySelector('a');
+      // Find images (main and hover)
+      const imagesDiv = anchor.querySelector('.related-products__images');
+      // Use both main and hover images if present
+      const mainImg = imagesDiv.querySelector('img.img-main');
+      const hoverImg = imagesDiv.querySelector('img.img-show-on-hover');
+      let imageCell;
+      if (mainImg && hoverImg) {
+        // Put both images in a fragment
+        const frag = document.createDocumentFragment();
+        frag.appendChild(mainImg.cloneNode(true));
+        frag.appendChild(hoverImg.cloneNode(true));
+        imageCell = frag;
+      } else if (mainImg) {
+        imageCell = mainImg.cloneNode(true);
+      } else {
+        imageCell = document.createElement('span');
+      }
+      // Find title
+      const cardTitle = anchor.querySelector('.related-products__card-title');
+      // Compose text cell: title and CTA link
+      let textCell;
+      if (cardTitle && anchor.href) {
+        // Wrap the title in a link for CTA
+        const link = document.createElement('a');
+        link.href = anchor.href;
+        link.textContent = cardTitle.textContent.trim();
+        textCell = link;
+      } else if (cardTitle) {
+        textCell = cardTitle.cloneNode(true);
+      } else {
+        textCell = document.createElement('span');
+      }
+      rows.push([imageCell, textCell]);
+    });
+    return rows;
+  }
+
+  // Extract cards from ALL sections (not just visible)
+  const allRows = [];
+  const allContents = element.querySelectorAll('.article-listing__results--content');
+  allContents.forEach((content) => {
+    const ul = content.querySelector('ul.article-listing__results--list');
     if (ul) {
-      const cards = ul.querySelectorAll('li.article-listing__results--item');
-      cards.forEach((card) => {
-        // Image cell: get the main image (first .img-main)
-        const imgContainer = card.querySelector('.related-products__images');
-        let img = imgContainer && imgContainer.querySelector('img.img-main');
-        if (!img) {
-          img = imgContainer && imgContainer.querySelector('img');
-        }
-        // Text cell: get the card title
-        const textContainer = card.querySelector('.related-products__card');
-        let title = textContainer && textContainer.querySelector('h4');
-        // Compose text cell
-        let textCell = [];
-        if (title) {
-          textCell.push(title);
-        }
-        // If the card has a link, add it as a CTA at the bottom (optional)
-        const link = card.querySelector('a.cta-analytics-card');
-        if (link && link.href) {
-          let linkText = link.textContent.trim();
-          if (!linkText && title) linkText = title.textContent.trim();
-          const cta = document.createElement('a');
-          cta.href = link.href;
-          cta.textContent = linkText;
-          cta.setAttribute('target', '_blank');
-          cta.setAttribute('rel', 'noopener');
-          if (!title || linkText !== title.textContent.trim()) {
-            textCell.push(cta);
-          }
-        }
-        rows.push([
-          img || '',
-          textCell.length === 1 ? textCell[0] : textCell
-        ]);
-      });
+      const cardRows = extractCardsFromList(ul);
+      allRows.push(...cardRows);
     }
-    // Do NOT add Load More button as a row
+    // Extract the Load More button (if present)
+    const loadMoreBtn = content.querySelector('.article-listing__btn');
+    if (loadMoreBtn) {
+      const emptyCell = document.createElement('span');
+      allRows.push([emptyCell, loadMoreBtn.cloneNode(true)]);
+    }
   });
 
-  // Create the block table
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(table);
+  // Also extract all data-* text content from the root element
+  ['data-load-more', 'data-no-result', 'data-error'].forEach(attr => {
+    const val = element.getAttribute(attr);
+    if (val) {
+      const emptyCell = document.createElement('span');
+      const txt = document.createElement('span');
+      txt.textContent = val;
+      allRows.push([emptyCell, txt]);
+    }
+  });
+
+  // Compose final table
+  const cells = [headerRow, ...allRows];
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+
+  // Replace original element
+  element.replaceWith(block);
 }

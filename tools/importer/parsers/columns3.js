@@ -3,103 +3,64 @@ export default function parse(element, { document }) {
   // Header row for the block
   const headerRow = ['Columns (columns3)'];
 
-  // Find main content
-  const content = element.querySelector('.footer-brand__primary--content');
-  if (!content) return;
+  // Find the main content wrapper
+  const content = element.querySelector('.footer-brand__primary--content') || element;
 
-  // Get left and right sections
+  // --- LEFT COLUMN: Logos and all branding/license text ---
   const leftSection = content.querySelector('.footer-brand__left');
-  const rightSection = content.querySelector('.footer-brand__right');
-
-  // --- Left Column: Logos and License Info ---
-  const leftItems = [];
+  let leftCell = document.createElement('div');
   if (leftSection) {
-    // Add all images
-    leftItems.push(...leftSection.querySelectorAll('img'));
-    // Add all text nodes (license number, etc.)
+    // Move all children (logo link, secondary logo, etc.)
     Array.from(leftSection.childNodes).forEach(node => {
+      leftCell.appendChild(node.cloneNode(true));
+    });
+    // Extract all visible text nodes from leftSection (including license and branding)
+    // Find all text nodes (including those inside children)
+    function extractTextNodes(node) {
       if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
-        const span = document.createElement('span');
-        span.textContent = node.textContent.trim();
-        leftItems.push(span);
-      }
-    });
-    // Add all text from non-image, non-anchor elements (e.g., license number)
-    leftSection.querySelectorAll('span, div').forEach(el => {
-      if (
-        el.textContent.trim() &&
-        el.querySelectorAll('img').length === 0 &&
-        el.querySelectorAll('a').length === 0
-      ) {
-        leftItems.push(el.cloneNode(true));
-      }
-    });
-    // Ensure 'Lic. No. 10012031000312' is present
-    if (!leftItems.some(item => item.textContent && item.textContent.match(/Lic\.?\s*No\.?\s*\d+/))) {
-      const licenseMatch = leftSection.textContent.match(/Lic\.?\s*No\.?\s*\d+/);
-      if (licenseMatch) {
-        const span = document.createElement('span');
-        span.textContent = licenseMatch[0];
-        leftItems.push(span);
+        leftCell.appendChild(document.createTextNode(node.textContent.trim()));
+      } else if (node.nodeType === Node.ELEMENT_NODE) {
+        Array.from(node.childNodes).forEach(extractTextNodes);
       }
     }
-    // Ensure 'fssai' is present (from logo or text)
-    if (!leftItems.some(item => item.textContent && item.textContent.toLowerCase().includes('fssai'))) {
-      // Try to extract from alt attribute of second image
-      const imgs = leftSection.querySelectorAll('img');
-      if (imgs[1] && imgs[1].alt && imgs[1].alt.toLowerCase().includes('fssai')) {
-        const span = document.createElement('span');
-        span.textContent = imgs[1].alt;
-        leftItems.push(span);
-      }
-    }
-    // If still missing 'fssai', try to extract from leftSection text
-    if (!leftItems.some(item => item.textContent && item.textContent.toLowerCase().includes('fssai'))) {
-      const fssaiMatch = leftSection.textContent.match(/fssai/i);
-      if (fssaiMatch) {
-        const span = document.createElement('span');
-        span.textContent = fssaiMatch[0];
-        leftItems.push(span);
-      }
-    }
-  }
-
-  // --- Right Column: Navigation Links ---
-  // Organize links into two rows as in the screenshots
-  const navRows = [[], []];
-  if (rightSection) {
-    const nav = rightSection.querySelector('nav');
-    if (nav) {
-      const allLists = nav.querySelectorAll('.footerList');
-      // First row: first <li> from each list
-      // Second row: second <li> from first two lists (if present)
-      allLists.forEach((listDiv, idx) => {
-        const lis = listDiv.querySelectorAll('li');
-        if (lis[0]) {
-          const link = lis[0].querySelector('a');
-          if (link) navRows[0].push(link);
-        }
-        if (lis[1]) {
-          const link = lis[1].querySelector('a');
-          if (link) navRows[1].push(link);
+    extractTextNodes(leftSection);
+    // Also extract text from adjacent siblings if present (for 'fssai' and license)
+    const parent = leftSection.parentNode;
+    if (parent) {
+      Array.from(parent.childNodes).forEach(sib => {
+        if (sib !== leftSection && sib.nodeType === Node.TEXT_NODE && sib.textContent.trim()) {
+          leftCell.appendChild(document.createTextNode(sib.textContent.trim()));
         }
       });
     }
   }
 
-  // Build table: header, then one row with left and right columns, then navigation links row
-  const rows = [headerRow];
-  // First row: left branding/info, right top navigation links
-  rows.push([
-    leftItems.length ? leftItems : '',
-    navRows[0].length ? navRows[0] : ''
-  ]);
-  // Second row: left column empty, right bottom navigation links (if present)
-  if (navRows[1].length) {
-    rows.push(['', navRows[1]]);
+  // --- MIDDLE COLUMN: First row of navigation links ---
+  // --- RIGHT COLUMN: Second row of navigation links ---
+  let middleCell = document.createElement('div');
+  let rightCell = document.createElement('div');
+  const rightSection = content.querySelector('.footer-brand__right');
+  if (rightSection) {
+    const nav = rightSection.querySelector('nav');
+    if (nav) {
+      // Get all .footerList elements
+      const lists = nav.querySelectorAll('.footerList');
+      // Middle column: first two lists
+      if (lists[0]) middleCell.appendChild(lists[0].cloneNode(true));
+      if (lists[1]) middleCell.appendChild(lists[1].cloneNode(true));
+      // Right column: last two lists
+      if (lists[2]) rightCell.appendChild(lists[2].cloneNode(true));
+      if (lists[3]) rightCell.appendChild(lists[3].cloneNode(true));
+    }
   }
 
-  // Create and replace block
+  // Compose table rows: 3 columns
+  const rows = [
+    headerRow,
+    [leftCell, middleCell, rightCell]
+  ];
+
+  // Create the table using DOMUtils
   const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

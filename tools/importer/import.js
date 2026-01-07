@@ -17,22 +17,26 @@ import columns3Parser from './parsers/columns3.js';
 import accordion4Parser from './parsers/accordion4.js';
 import cards5Parser from './parsers/cards5.js';
 import carousel8Parser from './parsers/carousel8.js';
-import hero7Parser from './parsers/hero7.js';
-import columns14Parser from './parsers/columns14.js';
 import cards6Parser from './parsers/cards6.js';
+import accordion9Parser from './parsers/accordion9.js';
+import hero7Parser from './parsers/hero7.js';
+import columns12Parser from './parsers/columns12.js';
+import columns11Parser from './parsers/columns11.js';
+import columns10Parser from './parsers/columns10.js';
+import hero13Parser from './parsers/hero13.js';
 import hero17Parser from './parsers/hero17.js';
+import columns14Parser from './parsers/columns14.js';
 import hero19Parser from './parsers/hero19.js';
 import cards18Parser from './parsers/cards18.js';
 import carousel20Parser from './parsers/carousel20.js';
-import columns10Parser from './parsers/columns10.js';
-import hero21Parser from './parsers/hero21.js';
 import accordion23Parser from './parsers/accordion23.js';
+import hero21Parser from './parsers/hero21.js';
 import carousel24Parser from './parsers/carousel24.js';
 import carousel22Parser from './parsers/carousel22.js';
 import cards25Parser from './parsers/cards25.js';
+import columns28Parser from './parsers/columns28.js';
 import cards27Parser from './parsers/cards27.js';
 import carousel29Parser from './parsers/carousel29.js';
-import columns28Parser from './parsers/columns28.js';
 import hero26Parser from './parsers/hero26.js';
 import tabs31Parser from './parsers/tabs31.js';
 import columns32Parser from './parsers/columns32.js';
@@ -60,22 +64,26 @@ const parsers = {
   accordion4: accordion4Parser,
   cards5: cards5Parser,
   carousel8: carousel8Parser,
-  hero7: hero7Parser,
-  columns14: columns14Parser,
   cards6: cards6Parser,
+  accordion9: accordion9Parser,
+  hero7: hero7Parser,
+  columns12: columns12Parser,
+  columns11: columns11Parser,
+  columns10: columns10Parser,
+  hero13: hero13Parser,
   hero17: hero17Parser,
+  columns14: columns14Parser,
   hero19: hero19Parser,
   cards18: cards18Parser,
   carousel20: carousel20Parser,
-  columns10: columns10Parser,
-  hero21: hero21Parser,
   accordion23: accordion23Parser,
+  hero21: hero21Parser,
   carousel24: carousel24Parser,
   carousel22: carousel22Parser,
   cards25: cards25Parser,
+  columns28: columns28Parser,
   cards27: cards27Parser,
   carousel29: carousel29Parser,
-  columns28: columns28Parser,
   hero26: hero26Parser,
   tabs31: tabs31Parser,
   columns32: columns32Parser,

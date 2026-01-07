@@ -1,38 +1,31 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Tabs (tabs31) block: extract each swiper-slide as a tab
+  // Tabs block header row
   const headerRow = ['Tabs (tabs31)'];
-  const rows = [headerRow];
 
-  // Get all immediate swiper-slide children (each is a tab)
-  const slides = element.querySelectorAll(':scope > .swiper-slide');
+  // Find all swiper-slide elements (each is a tab/question)
+  const slides = Array.from(element.querySelectorAll('.swiper-slide'));
 
-  slides.forEach((slide) => {
+  // For each slide, extract the tab label (question) and tab content (options)
+  const rows = slides.map(slide => {
     // Tab label: use the question heading (h3)
-    const tabLabel = slide.querySelector('h3');
+    const tabLabel = slide.querySelector('h3')?.textContent?.trim() || '';
 
-    // Tab content: gather the form with its options
-    const tabContent = document.createElement('div');
-    // Defensive: include heading and form in content
-    if (tabLabel) tabContent.appendChild(tabLabel.cloneNode(true));
-    const form = slide.querySelector('form');
-    if (form) tabContent.appendChild(form.cloneNode(true));
+    // Tab content: create a container div for the options
+    const tabContentDiv = document.createElement('div');
+    // Only add visible option labels (no form, no hidden spans)
+    const optionLabels = Array.from(slide.querySelectorAll('label.quiz-options__label'));
+    optionLabels.forEach(label => {
+      tabContentDiv.appendChild(label.cloneNode(true));
+    });
 
-    // If there's a decorative image (data-src), add it as an image
-    const dataSrc = slide.getAttribute('data-src');
-    if (dataSrc) {
-      const img = document.createElement('img');
-      img.src = dataSrc;
-      img.alt = '';
-      tabContent.appendChild(img);
-    }
-
-    // For the tab label cell: use the heading text only
-    let labelText = tabLabel ? tabLabel.textContent.trim() : '';
-    rows.push([labelText, tabContent]);
+    return [tabLabel, tabContentDiv];
   });
 
-  // Create the table block
-  const block = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(block);
+  // Build the table
+  const cells = [headerRow, ...rows];
+  const table = WebImporter.DOMUtils.createTable(cells, document);
+
+  // Replace the original element
+  element.replaceWith(table);
 }

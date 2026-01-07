@@ -1,39 +1,32 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Always use the block name as the header row
+  // Header row for Hero (hero7)
   const headerRow = ['Hero (hero7)'];
 
-  // Find the main image in the hero block
-  let imgEl = element.querySelector('picture img');
-  if (!imgEl) {
-    imgEl = element.querySelector('img');
+  // Find the main image for the hero background
+  const picture = element.querySelector('picture');
+  let imageEl = null;
+  if (picture) {
+    imageEl = picture.querySelector('img');
   }
-  const imageRow = [imgEl ? imgEl : ''];
 
-  // Extract ALL visible text content from the entire element, not just .banner-content
-  // Only extract actual visible text from the HTML, do not add anything from screenshot analysis
-  // If there is no visible text, leave the cell empty
-  let textContent = '';
-  element.querySelectorAll('*:not(script):not(style)').forEach(el => {
-    if (el.childElementCount === 0 && el.textContent && el.textContent.trim().length > 0) {
-      textContent += el.textContent.trim() + '\n';
-    }
-  });
-  textContent = textContent.trim();
+  // Row 2: Background image (optional)
+  const imageRow = [imageEl ? imageEl : ''];
 
-  // Only create a div if there is actual text content
-  const textRow = [textContent ? (() => { const div = document.createElement('div'); div.textContent = textContent; return div; })() : ''];
+  // Row 3: Title, subheading, CTA (optional)
+  // The provided HTML does not contain any text content, so this row should be empty
+  const contentRow = [''];
 
-  // Compose table rows
-  const rows = [
+  // Compose the table
+  const cells = [
     headerRow,
     imageRow,
-    textRow,
+    contentRow
   ];
 
   // Create the block table
-  const block = WebImporter.DOMUtils.createTable(rows, document);
+  const block = WebImporter.DOMUtils.createTable(cells, document);
 
-  // Replace the original element with the new table block
+  // Replace the original element
   element.replaceWith(block);
 }

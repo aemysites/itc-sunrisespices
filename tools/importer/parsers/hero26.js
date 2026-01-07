@@ -1,43 +1,39 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header row for Hero (hero26)
+  // Header row for Hero (hero26)
   const headerRow = ['Hero (hero26)'];
 
-  // --- Row 2: Prominent image(s) ---
-  const images = Array.from(element.querySelectorAll('img'));
-  let imageCell = images.length === 1 ? images[0] : (images.length > 1 ? images : '');
-  const imageRow = [imageCell];
+  // --- Row 2: Background Image (all visually relevant images) ---
+  const images = [];
+  element.querySelectorAll('img').forEach(img => {
+    images.push(img.cloneNode(true));
+  });
+  const imageRow = [images.length ? images : ''];
 
-  // --- Row 3: All visible text from source html, including visible CTA link text ---
-  // Find visible CTA links (not in d-none or hidden)
-  let ctaText = '';
-  const ctaLinks = Array.from(element.querySelectorAll('a'));
-  for (const link of ctaLinks) {
-    let isHidden = false;
-    let parent = link;
-    while (parent) {
-      const style = window.getComputedStyle(parent);
-      if (style.display === 'none' || style.visibility === 'hidden' || parent.classList.contains('d-none')) {
-        isHidden = true;
-        break;
-      }
-      parent = parent.parentElement;
-    }
-    if (!isHidden && link.textContent.trim()) {
-      ctaText = link.textContent.trim();
-      break;
+  // --- Row 3: Title, Subheading, CTA ---
+  // Only extract visible text from CTA link (if present)
+  // Do NOT include alt text from images as visible text
+  let contentRowCell = [];
+  const ctaLink = element.querySelector('.buy-now__cta--links a');
+  if (ctaLink) {
+    contentRowCell.push(ctaLink.cloneNode(true));
+    const ctaText = ctaLink.textContent.trim();
+    if (ctaText) {
+      contentRowCell.push(document.createTextNode(ctaText));
     }
   }
-  const contentRow = [ctaText];
+  const contentRow = [contentRowCell.length ? contentRowCell : ''];
 
-  // Build the table
-  const cells = [
+  // Assemble table rows
+  const rows = [
     headerRow,
     imageRow,
     contentRow
   ];
-  const block = WebImporter.DOMUtils.createTable(cells, document);
+
+  // Create block table
+  const table = WebImporter.DOMUtils.createTable(rows, document);
 
   // Replace the original element with the block table
-  element.replaceWith(block);
+  element.replaceWith(table);
 }

@@ -1,102 +1,65 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Carousel (carousel29) block parsing
-  // 1. Header row
-  const headerRow = ['Carousel (carousel29)'];
-
-  // 2. Find carousel cards (slides)
-  // The cards are direct children of .swiper-wrapper
-  const swiperWrapper = element.querySelector('.swiper-wrapper');
+  // Find the carousel wrapper
+  const section = element.querySelector('section');
+  if (!section) return;
+  const swiperWrapper = section.querySelector('.swiper-wrapper');
   if (!swiperWrapper) return;
 
-  // --- FIX: Extract the intro card (first child, not .spices-card) ---
-  // The intro card is the first child of .swiper-wrapper and does not have class .spices-card
-  const introCard = swiperWrapper.firstElementChild;
-  let introRow = null;
-  if (introCard && !introCard.classList.contains('spices-card')) {
-    // Extract heading and swipe text
-    const headingDiv = introCard.querySelector('.spices-card__heading');
+  // Build header row
+  const headerRow = ['Carousel (carousel29)'];
+  const rows = [headerRow];
+
+  // --- Add the intro slide (first column in screenshot) ---
+  // Find the intro card: .spices-main__card
+  const introCard = swiperWrapper.querySelector('.spices-main__card');
+  if (introCard) {
+    // Image cell: always empty for intro slide
+    const imgCell = '';
+    // Text cell: collect all heading and swipe text
+    const textCellContent = [];
+    // Headings
+    const headings = introCard.querySelectorAll('.spices-card__heading h2');
+    headings.forEach(h => textCellContent.push(h));
+    // SWIPE TO LEARN
     const swipeDiv = introCard.querySelector('.spices-card__swipe');
-    const textCell = document.createElement('div');
-    if (headingDiv) {
-      // Get all heading text (h2)
-      headingDiv.querySelectorAll('h2').forEach(h2 => {
-        // Preserve bold styling for 'OF SPICES'
-        if (h2.querySelector('b')) {
-          const h2El = document.createElement('h2');
-          const b = document.createElement('b');
-          b.textContent = h2.querySelector('b').textContent;
-          h2El.appendChild(b);
-          textCell.appendChild(h2El);
-        } else {
-          const h2El = document.createElement('h2');
-          h2El.textContent = h2.textContent;
-          textCell.appendChild(h2El);
-        }
-      });
-    }
-    if (swipeDiv) {
-      // Get swipe text (text + icon)
-      const swipeText = swipeDiv.childNodes[0]?.textContent?.trim();
-      if (swipeText) {
-        const p = document.createElement('p');
-        p.textContent = swipeText;
-        textCell.appendChild(p);
-      }
-    }
-    // Use empty cell for image (not 'null')
-    introRow = ['', textCell];
+    if (swipeDiv) textCellContent.push(swipeDiv);
+    rows.push([imgCell, textCellContent]);
   }
 
-  // Get all .spices-card elements (product slides)
-  const cardEls = Array.from(swiperWrapper.querySelectorAll('.spices-card'));
-  if (!cardEls.length) return;
+  // Get all product slide cards (excluding the intro)
+  const slides = Array.from(swiperWrapper.querySelectorAll('.spices-card:not(.spices-main__card)'));
 
-  // For each card, extract image and text content
-  const rows = cardEls.map(card => {
-    // Image: first .spices-card__img img
-    const imgContainer = card.querySelector('.spices-card__img');
-    let img = imgContainer ? imgContainer.querySelector('img') : null;
-    if (!img) {
-      img = card.querySelector('img');
+  slides.forEach((card) => {
+    // Image cell: reference the real image element
+    let imgCell = null;
+    const imgWrap = card.querySelector('.spices-card__img');
+    if (imgWrap) {
+      const img = imgWrap.querySelector('img');
+      if (img) imgCell = img;
     }
-    // Text cell: title, description, CTA
+
+    // Text cell
     const details = card.querySelector('.spices-card__details');
-    const textCell = document.createElement('div');
+    const textCellContent = [];
     if (details) {
-      // Title (h3)
+      // Title
       const title = details.querySelector('.spices-card__details--title');
-      if (title) {
-        const h3 = document.createElement('h3');
-        h3.textContent = title.textContent;
-        textCell.appendChild(h3);
-      }
-      // Description (p)
+      if (title) textCellContent.push(title);
+      // Description
       const desc = details.querySelector('.spices-card__details--description');
-      if (desc) {
-        const p = document.createElement('p');
-        p.textContent = desc.textContent;
-        textCell.appendChild(p);
-      }
-      // CTA (link)
+      if (desc) textCellContent.push(desc);
+      // CTA
       const cta = details.querySelector('.spices-card__cta a');
-      if (cta) {
-        const label = cta.querySelector('.sunrise-cta__label');
-        const a = document.createElement('a');
-        a.href = cta.href;
-        a.textContent = label ? label.textContent : cta.textContent;
-        textCell.appendChild(a);
-      }
+      if (cta) textCellContent.push(cta);
     }
-    return [img, textCell];
+    rows.push([
+      imgCell,
+      textCellContent.length ? textCellContent : ['']
+    ]);
   });
 
-  // Compose table rows
-  const tableRows = introRow ? [headerRow, introRow, ...rows] : [headerRow, ...rows];
-
-  // Create block table
-  const block = WebImporter.DOMUtils.createTable(tableRows, document);
-
-  // Replace original element
+  // Create the block table
+  const block = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(block);
 }
